@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding-left: 1rem;
+    background-color: #D1EFFF;
+}
+
+.wrapper{
+    box-sizing: border-box;
+    position: absolute;
+    margin: 0;
+min-width: 100vw;
+min-height: 100vh;
+}
+
+/* unvisited link */
+a:link {
+color: black;
+text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+color: black;
+text-decoration: none;
+}
+
+
+
+
+h1{
+    margin: auto;
+padding-top: 2.5rem;
+float: left;
+    font-family: 'Goozette';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+h2 {
+font-family: 'Creato Display', sans-serif;
+font-style: thin;
+font-weight: 400;
+font-size: 40px;
+}
+
+p{
+font-family: 'Creato Display', sans-serif;
+font-style: normal;
+text-align: left;
+padding-bottom: 5px;
+font-weight: 400;
+font-size: 20px;
+line-height: 1.7rem;
+}
+
+sub{
+font-family: 'JetBrains Mono', monospace;
+font-style: normal;
+font-weight: 500;
+text-align: left;
+font-size: 11px; 
+}
+
+
+li{
+font-family: 'Creato Display', sans-serif;
+font-style: normal;
+text-align: left;
+padding-bottom: 5px;
+font-weight: 400;
+font-size: 20px;
+}
+
+/*TOP NAV MENU CODE*/
+.mobile-menu{
+    position: absolute;
+    margin: auto;
+    top: -1px;
+    right: 0;
+display: inline-block;
+width: 10rem;
+height: 8.5rem;
+background-color: #eef8f3;
+border: 1px solid;}
+
+.bar1 .bar2 {
+    display: block;
+    width: 35px;
+  height: 5px;
+}
+
+
+
+
+
+.marquee {
+    height: 30px;
+    position: absolute;
+margin-top: 8.5rem;    
+background: #000000;
+    color: #ffffff;
+    width: 100vw;
+   overflow-x: hidden;
+}
+
+.marquee p {
+    position: absolute;
+    height: 100%;
+    margin: auto;
+    font-family: 'JetBrains Mono', monospace;
+     font-style: normal;
+      text-align: left;
+      font-weight: 400;
+      font-size: 12px; 
+  white-space: nowrap;
+  will-change: transform;
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(calc(-55% - 1rem)); }
+}
+
+.marquee-2{
+display: block;
+position: absolute;
+margin: auto;
+bottom: 0;
+padding-bottom: 10px;
+background: black;
+height: 50px;
+}
+
+.marquee-2 p{
+font-family: 'Goozette';
+font-style: normal;
+font-weight: 400;  
+color: #ffffff;
+font-size: 25px;
+padding: 1.5rem;
+white-space: nowrap;
+  will-change: transform;
+  animation: scroll 10s linear infinite;
+  animation-direction: reverse ;
+}
+
+@keyframes scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(calc(-55% - 1rem));
+     }
+  }
+
+
