@@ -39,6 +39,7 @@ border-color: rgb(27, 160, 27);
   margin: auto;
   position: relative;
 display: block;
+          padding-top: 5rem;
   }
 
 .title {
