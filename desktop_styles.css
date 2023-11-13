@@ -38,9 +38,7 @@ border-color: rgb(27, 160, 27);
   .construction{
   margin: auto;
   position: relative;
-display: block;
-          padding-top: 5rem;
-  }
+display: block;}
 
 .title {
     margin-left: 30px;
