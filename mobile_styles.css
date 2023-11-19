@@ -338,8 +338,6 @@ font-size: 20px;
 /* GENERATIVE HEADER ANIMATIONS*/
 .title {
     margin: auto;
-    padding-left: 1rem;
-    padding-top: 1.5rem;
     position: fixed;
     float: left;
     font-family: 'goozetteregular';
@@ -502,6 +500,7 @@ width: 100vw;
 height: 100vh;
 background-color: rgb(251, 253, 252);
     overflow-x: hidden;
+    z-index: -1;
 }
 
 .title-1 {
