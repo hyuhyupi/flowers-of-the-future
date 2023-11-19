@@ -458,8 +458,9 @@ background: #000000;
 .marquee-bottom{
 display: block;
 box-sizing: border-box;
-position: relative;
+position: absolute;
 bottom: 0;
+    margin-bottom: 0;
 background: black;
 overflow: hidden;
 margin: auto;
