@@ -412,28 +412,6 @@ z-index: 2;
 }
 
 
-
-#bar1 {
-    top: 2rem;
-    left: 2rem;
-    position: absolute; 
-    width: 25px;
-    height: 1.5px;
-    background-color: rgb(0, 0, 0);
-}
-
-#bar2 {
-    top: 2rem;
-    left: 2rem;
-    position: absolute; 
-    width: 25px;
-    height: 1.5px;
-    background-color: rgb(0, 0, 0);
-    transform: rotate(90deg);
-}
-
-
-
 .marquee {
     height: 25px;
     position: fixed;
