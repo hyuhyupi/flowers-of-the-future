@@ -1,0 +1,822 @@
+*{
+    margin: 0;
+}
+
+html{
+margin: 0;
+max-width: 100vw;
+}
+
+body{
+    max-width: 100vw;
+}
+.wrapper{
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 100vh;
+}
+
+/* unvisited link */
+a:link {
+color: black;
+text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+color: black;
+text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(0, 190, 57);
+border-color: rgb(27, 160, 27);
+    text-decoration: none;
+  }
+
+.btn {
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    font-family: 'Xanh Mono', monospace;
+font-size: 15px;
+line-height: 19px;
+position: relative;    
+border: 1px solid #000000;
+border-radius: 2rem;
+padding: 10px;
+margin-top: 0.5rem ;
+margin-right: 1rem;
+  }
+
+  .btn.active{
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    font-family: 'Xanh Mono', monospace;
+font-size: 15px;
+line-height: 19px;
+position: relative;    
+border: 1px solid #0008CE;
+border-radius: 2rem;
+padding: 10px;
+margin-top: 0.5rem ;
+margin-right: 1rem;
+    color: #0008CE;
+  }
+
+/*.btn1.active:active {
+    color: #0008CE;
+    border-color: #0008CE;
+  }
+
+  .btn2:active {
+    color: #EF671A;
+    border-color: #EF671A;
+  }
+
+  .btn3:active {
+    color: #00973C;
+    border-color: #00973C;
+  }
+
+  .btn4:active {
+    color: #FD54A5;
+    border-color: #FD54A5;
+  }
+
+  .btn5:active {
+    color: #9747FF;
+    border-color: #9747FF;
+  }
+
+  .btn6:active {
+    color: #FFB905;
+    border-color: #FFB905;
+  }
+
+/* main styling */
+h1{
+    margin: auto;
+padding-top: 2.5rem;
+    font-family: 'Goozette';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 2rem;
+}
+
+h2 {
+font-family: 'Creato Display Medium', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+}
+
+p{
+font-family: 'Creato Display', sans-serif;
+font-style: normal;
+font-weight: 400;
+text-align: left;
+padding-bottom: 5px;
+font-size: 15px;
+line-height: 1.3rem;
+letter-spacing: 0.2px;
+}
+
+b{
+    font-family: 'Creato Display', sans-serif;
+font-style: normal;
+font-weight: 700;
+text-align: left;
+padding-bottom: 5px;
+font-size: 15px;
+line-height: 1.3rem;
+}
+
+
+i{
+    font-family: 'Creato Display', sans-serif;
+font-style: italic;
+font-weight: 400;
+text-align: left;
+padding-bottom: 5px;
+font-size: 15px;
+line-height: 1.3rem; 
+}
+
+sub{
+font-family: 'JetBrains Mono', monospace;
+font-style: normal;
+font-weight: 500;
+text-align: left;
+font-size: 10px; 
+line-height: 0.2rem;
+}
+
+
+li{
+font-family: 'Creato Display', sans-serif;
+font-style: normal;
+text-align: left;
+padding-bottom: 5px;
+font-weight: 400;
+font-size: 20px;
+}
+
+/* GENERATIVE HEADER ANIMATIONS*/
+.title {
+    margin: auto;
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+    position: relative;
+    float: left;
+    font-family: 'Goozette';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 101%;
+    color: rgb(7, 7, 7);
+    /* or 97px */
+    letter-spacing: 0.055em; 
+    }
+
+.header-text-gardens{
+position: absolute;
+margin-left: 1.2rem;
+display: block;
+box-sizing: border-box;
+padding-top: 4rem;
+height: 14vh;
+}
+
+
+#header-text-gardens {
+margin: auto;
+position: relative;
+font-family: 'Goozette';
+font-style: normal;
+font-size: 1.8rem;
+line-height: 1rem;
+letter-spacing: -0.045em;
+color: white;
+-webkit-text-stroke: 0.7px black;
+}
+
+/*TOP NAV MENU CODE*/
+.mobile-menu-landing{
+    position: fixed;
+    margin: auto;
+    top: -1px;
+    right: -1px;
+display: inline-block;
+width: 4.5rem;
+height: 14vh;
+z-index: 2;
+border:#000000 1px solid;
+}
+
+
+
+.mobile-menu-pages{
+    position: fixed;
+    margin: auto;
+    top: -1px;
+    right: 0;
+display: block;
+width: 4.5rem;
+height: 5rem;
+z-index: 2;
+}
+
+
+
+#bar1 {
+    top: 37%;
+    margin-left: 35%;
+    position: relative; 
+    width: 25px;
+    height: 1.5px;
+    background-color: rgb(0, 0, 0);
+}
+
+#bar2 {
+    top: 37%;
+    margin-left: 35%;
+    position: relative; 
+    width: 25px;
+    height: 1.5px;
+    background-color: rgb(0, 0, 0);
+    transform: rotate(90deg);
+}
+
+
+
+.marquee {
+    height: 25px;
+    position: absolute;
+margin-top: 13.2vh; 
+left: 0;   
+background: #000000;
+    color: #ffffff;
+    width: 100vw;
+   z-index: 1;
+}
+
+.marquee p {
+    position: absolute;
+    height: 100%;
+    padding: 3px;
+    margin: auto;
+    font-family: 'JetBrains Mono', monospace;
+     font-style: normal;
+      text-align: left;
+      font-weight: 400;
+      font-size: 10px; 
+  white-space: nowrap;
+  will-change: transform;
+  animation: scroll 20s linear infinite;
+  animation-direction: reverse;
+
+}
+
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(calc(-55% - 1rem)); }
+}
+
+.marquee-bottom{
+display: block;
+box-sizing: border-box;
+position: absolute;
+bottom: -2.5px;
+background: black;
+overflow: hidden;
+margin: auto;
+height: 55px;
+width: 100vw;
+}
+
+.marquee-bottom p{
+font-family: 'Goozette';
+font-style: normal;
+font-weight: 400;  
+color: #ffffff;
+font-size: 20px;
+padding: 0.8rem;
+white-space: nowrap;
+  will-change: transform;
+  animation: scroll 6s linear infinite;
+  width: 100vw;
+}
+
+@keyframes scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(calc(-66% ));
+     }
+  }
+
+
+
+.grid{
+    overflow: hidden;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 50% 50%;    
+    grid-template-rows: 25vh 25vh 25vh;
+position: absolute;
+   right: 0;
+   top: 18vh;
+width: 100vw;
+height: 75vh;
+background-color: rgb(251, 253, 252);
+}
+
+.title-1 {
+    margin: auto;
+    display: inline-grid;
+position: relative;
+text-align: center;
+padding: 10px;
+width: 40vw;
+height: 25vh;
+}
+
+.title-2 {
+    margin: auto;
+    display: inline-grid;
+position: relative;
+float: left;
+text-align: center;
+padding: 10px;
+width: 40vw;
+height: 25vh;
+}
+
+.title-3 {
+    margin: auto;
+    display: inline-grid;
+position: relative;
+text-align: center;
+padding: 10px;
+width: 40vw;
+height: 25vh;
+}
+
+
+.title-4 {
+    margin: auto;
+    display: inline-grid;
+position: relative;
+text-align: center;
+padding: 10px;
+width: 40vw;
+height: 25vh;
+}
+
+.title-5{
+    margin: auto;
+    display: inline-grid;
+position: relative;
+text-align: center;
+padding: 10px;
+width: 40vw;
+height: 25vh;
+}
+
+#seed, #sunflower, #conversations, #gloves, #watering-can{
+    display: block;
+    position: relative;
+    margin: auto;
+    padding-bottom: 0.7rem;
+    scale: 90%;
+}
+
+
+
+.about-mobile{
+    display: block;
+    width: 40vw;
+    height: 20rem;
+    position: relative;
+    margin: auto;
+    padding-bottom: 5px;
+    bottom: -10px;
+    right: 0;
+    border: #000000 1px solid;
+    background-color: #8bee84;
+    border-radius: 5rem;
+}
+
+.about-mobile p{
+    margin: auto;
+    padding-top: 4rem;
+    position: relative;
+    text-align: center;
+    font-family: 'Goozette', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    color: #000000;
+}
+
+/* overall page styling*/
+.page-header{
+    position: fixed;
+    margin: auto;
+    top: 0;
+    display: block;
+    width: 100vw;
+    height: 4.2rem;
+    z-index: 1;
+}
+
+.header-line{
+background-color: #000000;
+width: 100vw;
+height: 1px;
+position: relative;
+margin-top: 1.2rem;
+}
+
+.page-header-section {
+    display: block;
+    font-size: 9px;
+    text-align: left;
+    font-family: 'JetBrains Mono', monospace, bold;
+    position: relative;
+    font-weight: 800;
+    margin: auto;
+    margin-top: 1.3rem;
+    padding-left: 1rem;
+    }
+    
+    .page-header-title sub{
+        font-size: 9px;
+        text-align: left;
+        position: relative;
+        display: block;
+        margin: auto;
+        margin-top: 0.7rem;
+        padding-left: 1rem;
+        }
+    
+        .page-header-date sub{
+            font-size: 8px;
+            text-align: left;
+            position: relative;
+            margin: auto;
+            margin-top: 1rem;
+            padding-left: 1rem;
+            }
+
+/* INITIATIVES PAGE */
+.initiatives{
+    padding-top: 3rem;
+}
+.description{
+    display: block;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: 'Creato Display', sans-serif;
+    font-size: 16px;
+}
+
+.description-about{
+    display: block;
+    box-sizing: border-box;
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+    font-family: 'Creato Display', sans-serif;
+    font-size: 16px;
+}
+
+.disclaimer {
+    position: relative;
+    margin: auto;
+    }
+    
+    .disclaimer sub{
+        position: relative;
+        font-size: 10px;
+    }
+
+#initiative-filters{
+display: flex;
+flex-wrap: wrap;
+ justify-content: stretch;
+ width: 100vw;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    top: 3rem;
+    margin: auto;
+    position: relative;
+    width: 100vw;
+    justify-content: space-between;
+    
+}
+
+.filterDiv{
+    position: relative;
+    display: inline-flexbox;
+    background-color: rgb(255, 255, 255);
+    border: #000000 solid 1px;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    width: 90vw;
+    height: 23rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.filterDiv p{
+    font-size: 1rem;
+    line-height: 1.3rem;
+   font-weight: 500;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   padding-top: 0.5rem;
+position: relative;
+margin: auto;
+}
+
+.filterDiv h2{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    width: 90%;
+
+}
+
+.filterDiv sub{
+    text-transform: uppercase;
+    padding-left: 1rem;
+    font-size: 9.5px;
+}
+
+.address{
+    position: relative;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    text-transform: uppercase;
+    font-size: 9.5px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.learnmore{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    position: relative;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    float: left;
+    }
+
+/* Star 16 */
+.star{
+position: absolute;
+float: right;
+bottom: 0px;
+right: 3px;
+}
+
+
+
+.type{
+    position: relative;
+    padding-bottom: 1rem;
+    background-color: #000000;
+    border-top-left-radius: 1.9rem;
+    border-top-right-radius: 1.9rem;
+    height: 2rem;
+}
+.type sub{
+    position: relative;
+    margin: auto;
+    color: white;
+text-transform: uppercase;
+padding-left: 1rem;
+top: 40%;
+font-size: 9px;
+}
+
+
+
+/* PAGES - INTERVIEWS, EXPERIENCES, GRANTS */
+.nav-landing{
+    display: block;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    border:#000000 1px solid;
+    margin: auto;
+    width: 100vw;
+    height: 50px;
+    z-index: 2;
+}
+
+.nav-landing h1{
+    position: relative;
+    font-size: 18px;
+  bottom: 30px;
+  padding-left: 2.2rem;
+    margin: auto;
+    
+}
+
+
+
+#ecosystems{
+    display: block;
+    box-sizing: border-box;
+    border: #000000 1px solid;
+    padding: 1.5rem;
+    margin-bottom: 5rem;
+    width: 90vw;
+}
+    
+#ecosystems h1{
+    padding: 0;
+    text-align: center;
+}
+/* interview landing */
+.interview-1, .interview-2{
+font-family: 'Goozette';
+font-style: normal;
+font-weight: 400;  
+color: #000000;
+font-size: 20px;
+padding-top: 5rem;
+padding-bottom: 1rem;
+width: 70vw;
+}
+
+.line-1{
+    position: absolute;
+    margin-top: 2rem ;
+    left: 0;
+    width: 100vw;
+    height: 1px;
+    background-color: #000000
+}
+
+/* interview pages 1 and 2 */
+
+.interview-title-1{
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+}
+.bio-1{
+    font-family: 'Xanh Mono', monospace;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 10rem;
+    line-height: 1.4rem;
+    letter-spacing: -0.3px;
+}
+
+.bio-1 i{
+    font-family: 'Xanh Mono', monospace;
+    font-style: italic;
+    font-size: 18px; 
+    line-height: 1.4rem;
+letter-spacing: -0.3px;
+}
+
+.author{
+    display: block;
+    box-sizing: border-box;
+    width: 7rem;
+position: relative;
+padding-bottom: 4rem;
+}
+
+.author sub{
+display: block;
+box-sizing: border-box;
+margin: auto;
+position: relative;
+text-align: left;
+color: #6d6d6d;
+font-size: 9px;
+line-height: 0.7rem;
+}
+
+.interview-text-1{
+    padding-bottom: 7.5rem;
+}
+
+.interview-text-1 b i{
+    font-style: italic;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.pullquote{
+    display: block;
+    box-sizing: border-box;
+    font-family: 'Creato Display', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    text-align: left;
+    font-size: 19px;
+    line-height: 1.7rem;
+    text-indent: 1rem;
+    padding-bottom: 8rem;
+    }
+
+    .contact{
+        padding-bottom: 3rem;
+    }
+
+    .section-1, .section-2, .section-3{
+        position: relative;
+        margin: auto; 
+        padding-top: 1rem; 
+      }
+      
+      .section-1 sub, .section-2 sub, .section-3 sub{
+        font-size: 13px; 
+        }
+
+        /*books*/
+        .flex-2{
+            display: flex;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            top: 3rem;
+            position: relative;
+            margin: auto;
+            width: 100vw;
+            justify-content: space-between;
+            overflow-x: hidden;
+            padding-bottom: 5rem;
+            padding-left: 0;
+            margin-left: 0;
+        }
+        
+        .book{
+            position: relative;
+            display: inline-flexbox;
+            margin: auto;
+            width: 25rem;
+            height: 40rem;
+            padding-bottom: 1rem;
+            margin-left: 0;
+            margin-right: 0;
+            padding-left: 0;
+            padding-right: 0;
+
+          }
+        
+        .thumbnail-box{
+            display: block;
+            box-sizing: border-box;
+            margin: auto;
+            margin-left: 0;
+            position: relative;
+            height: 25rem;
+            width: 90vw;
+            background-color: #000000;
+        }
+          #book-thumbnail{
+            height: 20rem;
+            width: 12rem;
+            display: block;
+            margin: auto;
+            position: relative;
+            padding: 2rem;
+          }
+        
+        
+          .book-title sub{
+            position: relative;
+            display: block;
+            font-style: italic;
+            text-align: left;
+            font-size: 15px;
+            font-weight: 500;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            padding-right: 2rem;
+            line-height: 1.3rem;
+          }
+        
+        
+          .genre{
+            display: inline-block;
+            font-family: 'Xanh Mono', monospace;
+        font-size: 14px;
+        line-height: 19px;
+        position: relative;    
+        border: 1px solid #000000;
+        border-radius: 2rem;
+        padding: 9px;
+        margin-top: 0.5rem ;
+        margin-right: 0.5rem;
+        width: fit-content;
+          }
