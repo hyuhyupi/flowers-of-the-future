@@ -461,7 +461,6 @@ display: block;
 box-sizing: border-box;
 position: fixed;
 bottom: 0;
-margin-top: 100vh;
 background: black;
 overflow: hidden;
 left: 0;
