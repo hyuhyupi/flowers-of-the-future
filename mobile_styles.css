@@ -414,15 +414,17 @@ z-index: 2;
 
 
 #bar1 {
-    margin-top: 1.3rem;
-    position: rel; 
+    margin-top: 2rem;
+        margin-left: 2rem;
+    position: absolute; 
     width: 25px;
     height: 1.5px;
     background-color: rgb(0, 0, 0);
 }
 
 #bar2 {
-    margin-top: 1.3rem;
+    margin-top: 2rem;
+            margin-left: 2rem;
     position: absolute; 
     width: 25px;
     height: 1.5px;
