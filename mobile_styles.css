@@ -344,11 +344,13 @@ display: block;
     box-sizing: border-box;
     width: 100vw;
     background-color: white;
-    height: fit-content;
+    height: 14vh;
 }
 
 .title {
     margin: auto;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
     position: fixed;
     float: left;
     font-family: 'goozetteregular';
@@ -363,7 +365,7 @@ display: block;
 
 .header-text-gardens{
 position: fixed;
-margin-left: 1.2rem;
+margin-left: 1.6rem;
 display: block;
 box-sizing: border-box;
 padding-top: 4rem;
@@ -435,7 +437,7 @@ z-index: 2;
 .marquee {
     height: 25px;
     position: fixed;
-margin-top: 13.2vh; 
+margin-top: 9vh; 
 left: 0;   
 background: #000000;
     color: #ffffff;
