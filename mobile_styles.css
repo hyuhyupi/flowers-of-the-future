@@ -459,7 +459,7 @@ background: #000000;
 display: block;
 box-sizing: border-box;
 position: absolute;
-bottom: -2.5px;
+bottom: 0;
 background: black;
 overflow: hidden;
 margin: auto;
@@ -468,9 +468,9 @@ width: 100vw;
 }
 
 .marquee-bottom p{
-font-family: 'goozetteregular';
+font-family: 'Goozette';
 font-style: normal;
-font-weight: normal;  
+font-weight: 400;  
 color: #ffffff;
 font-size: 20px;
 padding: 0.8rem;
