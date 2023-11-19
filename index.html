@@ -5,22 +5,174 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" media="screen and (min-width: 832px)" href="desktop_styles.css">
-<link rel="stylesheet" media="screen and (max-width: 831px)" href="mobile_styles.css">
+<link rel="stylesheet" media="screen and (min-width: 1220px)" href="desktop_styles.css">
+<link rel="stylesheet" media="screen and (max-width: 1219px)" href="mobile_styles.css">
 
 
-<script media="screen and (min-width: 832px)" defer src="desktop.js"></script>
-<script media="screen and (max-width: 831px)" defer src="mobile.js"></script>
+
+
+<script media="screen and (min-width: 1220px)" defer src="desktop.js"></script>
+<script media="screen and (max-width: 1219px)" defer src="mobile.js"></script>
 
 <script async src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsfilter@1/cmsfilter.js"></script>
 
 
-</head>
+<style>
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+
+  @media screen and (min-width: 1280px) {
+  .title{
+  font-size: 70px;
+}
+
+#header-text-gardens{
+  font-size: 60px;
+}
+  }
   
+  @media screen and (min-width: 1220px) {
+  .flex{
+  display: none;
+}
+
+.title{
+  font-size: 70px;
+}
+
+#header-text-gardens{
+  font-size: 60px;
+}
+}
+
+
+@media screen and (max-width: 1219px){
+ canvas{
+    display: none;
+  }
+.desc-1, .desc-2, .desc-3, .desc-4, .desc-5{
+  display: none;
+}
+}
+
+html{
+  overflow: hidden;
+}
+
+*{
+  overflow: hidden;
+}
+
+  </style>
+  
+  <title>tend.to</title>
+</head>
+
+
 <body>
-    <div class="construction">
-<p>This website is currently under construction. Please come back later!</p>
+  <div class="circularcursor"></div>
+<div class="wrapper">
+  <div class="title">
+    TEND.TO
+  </div>
+    <div class="header-text-gardens">  
+<!--generative header animations -->
+<span id="header-text-gardens">
+</span>
+</div>
+<div class="mobile-menu-landing">
+ <a href="menu_overlay.html"> 
+  <div id="bar1"></div>
+  <div id="bar2"></div>
+  </a>
 </div>
 
+
+
+
+<div class="marquee">
+  <p>
+    TENDING TO WESTERN SYDNEY CREATIVITY * TENDING TO WESTERN SYDNEY CREATIVITY *
+    TENDING TO WESTERN SYDNEY CREATIVITY * TENDING TO WESTERN SYDNEY CREATIVITY *
+    TENDING TO WESTERN SYDNEY CREATIVITY * TENDING TO WESTERN SYDNEY CREATIVITY *
+    TENDING TO WESTERN SYDNEY CREATIVITY * TENDING TO WESTERN SYDNEY CREATIVITY *
+    TENDING TO WESTERN SYDNEY CREATIVITY * TENDING TO WESTERN SYDNEY CREATIVITY *
+    TENDING TO WESTERN SYDNEY CREATIVITY * TENDING TO WESTERN SYDNEY CREATIVITY *
+    TENDING TO WESTERN SYDNEY CREATIVITY * TENDING TO WESTERN SYDNEY CREATIVITY *
+    TENDING TO WESTERN SYDNEY CREATIVITY * TENDING TO WESTERN SYDNEY CREATIVITY *
+    
+  </p>
+</div>
+
+
+
+
+<!-- stacked landing blobs-->
+<!-- blob animation from codepen-->
+<!--end of stacked landing blobs-->
+
+
+<!--title/section overlay-->
+<div id="blob-container">
+</div>
+   <div class="grid">
+<div class="title-1"><a href="planting-seeds-across-the-west.html"><img id="seed" src="img/Asset 4@72x.png" width="100" height="100"><sub>Planting Seeds Across The West</sub></a>
+</div>
+<div class="desc-1">
+  A non-exhaustive list of Western Sydney & Blue Mountains initiatives.
+</div>
+
+<div class="title-2"><a href="exploring-our-local-blooms.html"><img id="sunflower" src="img/sunflower-helianthus-annuus-blue-sky-background.png" width="100" height="100">
+  <sub>Exploring Our<br>Local Blooms</sub></a></div>
+  <div class="desc-2">
+    Personal reflections on exploring places and events.  
+  </div>
+
+<div class="title-3"><a href="conversations-from-the-garden.html"><img id="conversations" src="img/conversations.png" width="100" height="100"><sub>Conversations From<br>The Garden</sub></a></div>
+<div class="desc-3">
+  Interviews with Western Sydney & Blue Mountains creatives.
+</div>
+
+<div class="title-4"> <a href="community-gardening-tools.html"><img id="gloves" src="img/gloves.png" width="100" height="100">
+  <sub>Community Gardening Tools</sub></a></div>
+  <div class="desc-4">
+    Grants and Mentorships, Support and Other Digital Gardens
+  </div>
+
+<div class="title-5"><a href="water-your-knowledge.html"><img id="watering-can" src="img/watering can.png" width="100" height="100"></img>
+  <sub>Water Your Knowledge</sub></a></div>
+  <div class="desc-5">
+    Books and publications to grow your knowledge.
+  </div>
+
+<div class="about-mobile"><a href="about.html"><p>ABOUT THE GARDEN</p></a></div>
+<div class="acknowledgement"><a href="about.html"><p>ACKNOWLEDGEMENT</p></a></div>
+</div>
+</div>
+
+ <!--end of wrapper-->
+ <div class="marquee-bottom">
+  <p><svg width="20" height="20" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M9.58558 1.91622C10.3645 0.322794 12.6355 0.322794 13.4144 1.91622C13.9179 2.94618 15.1461 3.39319 16.1938 2.92783C17.8147 2.20789 19.5544 3.66764 19.1269 5.38896C18.8505 6.5016 19.504 7.63347 20.6057 7.95046C22.3102 8.44087 22.7046 10.6773 21.2706 11.7211C20.3437 12.3958 20.1168 13.6829 20.757 14.634C21.7475 16.1052 20.612 18.072 18.8426 17.9498C17.6989 17.8709 16.6977 18.711 16.5768 19.851C16.3898 21.6148 14.2558 22.3915 12.9789 21.1606C12.1535 20.3649 10.8465 20.3649 10.0211 21.1606C8.74418 22.3915 6.61017 21.6148 6.42319 19.851C6.30233 18.711 5.30113 17.8709 4.15741 17.9498C2.388 18.072 1.25251 16.1052 2.24299 14.634C2.88322 13.6829 2.65627 12.3958 1.72938 11.7211C0.295427 10.6773 0.689776 8.44087 2.39425 7.95046C3.496 7.63347 4.14949 6.5016 3.87313 5.38896C3.4456 3.66764 5.18526 2.20789 6.80619 2.92783C7.85394 3.39319 9.08209 2.94618 9.58558 1.91622Z" fill="black"/>
+    </svg>
+    PLANTING THE SEEDS OF ACTION FOR OUR COLLECTIVE FUTURES <svg width="20" height="20" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M9.58558 1.91622C10.3645 0.322794 12.6355 0.322794 13.4144 1.91622C13.9179 2.94618 15.1461 3.39319 16.1938 2.92783C17.8147 2.20789 19.5544 3.66764 19.1269 5.38896C18.8505 6.5016 19.504 7.63347 20.6057 7.95046C22.3102 8.44087 22.7046 10.6773 21.2706 11.7211C20.3437 12.3958 20.1168 13.6829 20.757 14.634C21.7475 16.1052 20.612 18.072 18.8426 17.9498C17.6989 17.8709 16.6977 18.711 16.5768 19.851C16.3898 21.6148 14.2558 22.3915 12.9789 21.1606C12.1535 20.3649 10.8465 20.3649 10.0211 21.1606C8.74418 22.3915 6.61017 21.6148 6.42319 19.851C6.30233 18.711 5.30113 17.8709 4.15741 17.9498C2.388 18.072 1.25251 16.1052 2.24299 14.634C2.88322 13.6829 2.65627 12.3958 1.72938 11.7211C0.295427 10.6773 0.689776 8.44087 2.39425 7.95046C3.496 7.63347 4.14949 6.5016 3.87313 5.38896C3.4456 3.66764 5.18526 2.20789 6.80619 2.92783C7.85394 3.39319 9.08209 2.94618 9.58558 1.91622Z" fill="black"/>
+    </svg>
+    PLANTING THE SEEDS OF ACTION FOR OUR COLLECTIVE FUTURES <svg width="20" height="20" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M9.58558 1.91622C10.3645 0.322794 12.6355 0.322794 13.4144 1.91622C13.9179 2.94618 15.1461 3.39319 16.1938 2.92783C17.8147 2.20789 19.5544 3.66764 19.1269 5.38896C18.8505 6.5016 19.504 7.63347 20.6057 7.95046C22.3102 8.44087 22.7046 10.6773 21.2706 11.7211C20.3437 12.3958 20.1168 13.6829 20.757 14.634C21.7475 16.1052 20.612 18.072 18.8426 17.9498C17.6989 17.8709 16.6977 18.711 16.5768 19.851C16.3898 21.6148 14.2558 22.3915 12.9789 21.1606C12.1535 20.3649 10.8465 20.3649 10.0211 21.1606C8.74418 22.3915 6.61017 21.6148 6.42319 19.851C6.30233 18.711 5.30113 17.8709 4.15741 17.9498C2.388 18.072 1.25251 16.1052 2.24299 14.634C2.88322 13.6829 2.65627 12.3958 1.72938 11.7211C0.295427 10.6773 0.689776 8.44087 2.39425 7.95046C3.496 7.63347 4.14949 6.5016 3.87313 5.38896C3.4456 3.66764 5.18526 2.20789 6.80619 2.92783C7.85394 3.39319 9.08209 2.94618 9.58558 1.91622Z" fill="black"/>
+      </svg>
+      PLANTING THE SEEDS OF ACTION FOR OUR COLLECTIVE FUTURES <svg width="20" height="20" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M9.58558 1.91622C10.3645 0.322794 12.6355 0.322794 13.4144 1.91622C13.9179 2.94618 15.1461 3.39319 16.1938 2.92783C17.8147 2.20789 19.5544 3.66764 19.1269 5.38896C18.8505 6.5016 19.504 7.63347 20.6057 7.95046C22.3102 8.44087 22.7046 10.6773 21.2706 11.7211C20.3437 12.3958 20.1168 13.6829 20.757 14.634C21.7475 16.1052 20.612 18.072 18.8426 17.9498C17.6989 17.8709 16.6977 18.711 16.5768 19.851C16.3898 21.6148 14.2558 22.3915 12.9789 21.1606C12.1535 20.3649 10.8465 20.3649 10.0211 21.1606C8.74418 22.3915 6.61017 21.6148 6.42319 19.851C6.30233 18.711 5.30113 17.8709 4.15741 17.9498C2.388 18.072 1.25251 16.1052 2.24299 14.634C2.88322 13.6829 2.65627 12.3958 1.72938 11.7211C0.295427 10.6773 0.689776 8.44087 2.39425 7.95046C3.496 7.63347 4.14949 6.5016 3.87313 5.38896C3.4456 3.66764 5.18526 2.20789 6.80619 2.92783C7.85394 3.39319 9.08209 2.94618 9.58558 1.91622Z" fill="black"/>
+        </svg>
+        PLANTING THE SEEDS OF ACTION FOR OUR COLLECTIVE FUTURES <svg width="20" height="20" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9.58558 1.91622C10.3645 0.322794 12.6355 0.322794 13.4144 1.91622C13.9179 2.94618 15.1461 3.39319 16.1938 2.92783C17.8147 2.20789 19.5544 3.66764 19.1269 5.38896C18.8505 6.5016 19.504 7.63347 20.6057 7.95046C22.3102 8.44087 22.7046 10.6773 21.2706 11.7211C20.3437 12.3958 20.1168 13.6829 20.757 14.634C21.7475 16.1052 20.612 18.072 18.8426 17.9498C17.6989 17.8709 16.6977 18.711 16.5768 19.851C16.3898 21.6148 14.2558 22.3915 12.9789 21.1606C12.1535 20.3649 10.8465 20.3649 10.0211 21.1606C8.74418 22.3915 6.61017 21.6148 6.42319 19.851C6.30233 18.711 5.30113 17.8709 4.15741 17.9498C2.388 18.072 1.25251 16.1052 2.24299 14.634C2.88322 13.6829 2.65627 12.3958 1.72938 11.7211C0.295427 10.6773 0.689776 8.44087 2.39425 7.95046C3.496 7.63347 4.14949 6.5016 3.87313 5.38896C3.4456 3.66764 5.18526 2.20789 6.80619 2.92783C7.85394 3.39319 9.08209 2.94618 9.58558 1.91622Z" fill="black"/>
+          </svg>
+          PLANTING THE SEEDS OF ACTION FOR OUR COLLECTIVE FUTURES <svg width="20" height="20" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9.58558 1.91622C10.3645 0.322794 12.6355 0.322794 13.4144 1.91622C13.9179 2.94618 15.1461 3.39319 16.1938 2.92783C17.8147 2.20789 19.5544 3.66764 19.1269 5.38896C18.8505 6.5016 19.504 7.63347 20.6057 7.95046C22.3102 8.44087 22.7046 10.6773 21.2706 11.7211C20.3437 12.3958 20.1168 13.6829 20.757 14.634C21.7475 16.1052 20.612 18.072 18.8426 17.9498C17.6989 17.8709 16.6977 18.711 16.5768 19.851C16.3898 21.6148 14.2558 22.3915 12.9789 21.1606C12.1535 20.3649 10.8465 20.3649 10.0211 21.1606C8.74418 22.3915 6.61017 21.6148 6.42319 19.851C6.30233 18.711 5.30113 17.8709 4.15741 17.9498C2.388 18.072 1.25251 16.1052 2.24299 14.634C2.88322 13.6829 2.65627 12.3958 1.72938 11.7211C0.295427 10.6773 0.689776 8.44087 2.39425 7.95046C3.496 7.63347 4.14949 6.5016 3.87313 5.38896C3.4456 3.66764 5.18526 2.20789 6.80619 2.92783C7.85394 3.39319 9.08209 2.94618 9.58558 1.91622Z" fill="black"/>
+            </svg>
+      </p>
+</div>
 </body>
 </html>
+
