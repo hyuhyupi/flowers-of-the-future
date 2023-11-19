@@ -340,7 +340,7 @@ font-size: 20px;
     margin: auto;
     padding-left: 1rem;
     padding-top: 1.5rem;
-    position: relative;
+    position: fixed;
     float: left;
     font-family: 'goozetteregular';
     font-style: normal;
@@ -353,7 +353,7 @@ font-size: 20px;
     }
 
 .header-text-gardens{
-position: absolute;
+position: fixed;
 margin-left: 1.2rem;
 display: block;
 box-sizing: border-box;
@@ -425,7 +425,7 @@ z-index: 2;
 
 .marquee {
     height: 25px;
-    position: absolute;
+    position: fixed;
 margin-top: 13.2vh; 
 left: 0;   
 background: #000000;
