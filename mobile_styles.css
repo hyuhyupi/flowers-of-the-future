@@ -497,6 +497,7 @@ position: absolute;
    right: 0;
    top: 18vh;
 width: 100vw;
+    height: 100vh;
 height: 75vh;
 background-color: rgb(251, 253, 252);
 }
