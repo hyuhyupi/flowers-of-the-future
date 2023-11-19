@@ -336,6 +336,13 @@ font-size: 20px;
 }
 
 /* GENERATIVE HEADER ANIMATIONS*/
+.header{
+display: block;
+    box-sizing: border-box;
+    width: 100vw;
+    background-colour: #ffff;
+    height: fit-content;
+}
 .title {
     margin: auto;
     position: fixed;
