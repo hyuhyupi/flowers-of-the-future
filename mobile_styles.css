@@ -415,7 +415,7 @@ z-index: 2;
 
 #bar1 {
     top: 2rem;
-        margin-left: 2rem;
+    left: 2rem;
     position: absolute; 
     width: 25px;
     height: 1.5px;
@@ -424,7 +424,7 @@ z-index: 2;
 
 #bar2 {
     top: 2rem;
-    margin-left: 2rem;
+    left: 2rem;
     position: absolute; 
     width: 25px;
     height: 1.5px;
