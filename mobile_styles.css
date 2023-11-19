@@ -500,8 +500,10 @@ position: absolute;
    top: 18vh;
 width: 100vw;
     height: 100vh;
-height: 75vh;
+height: 100vh;
 background-color: rgb(251, 253, 252);
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .title-1 {
