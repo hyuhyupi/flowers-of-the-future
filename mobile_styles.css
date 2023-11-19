@@ -415,7 +415,7 @@ z-index: 2;
 
 #bar1 {
     top: 1.3rem;
-    position: fixed; 
+    position: absolute; 
     width: 25px;
     height: 1.5px;
     background-color: rgb(0, 0, 0);
@@ -423,7 +423,7 @@ z-index: 2;
 
 #bar2 {
     top: 1.3rem;
-    position: fixed; 
+    position: absolute; 
     width: 25px;
     height: 1.5px;
     background-color: rgb(0, 0, 0);
