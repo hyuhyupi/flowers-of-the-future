@@ -448,11 +448,6 @@ white-space: nowrap;
   width: 100vw;
 }
 
-@keyframes scroll {
-  from { transform: translateX(0); }
-  to { transform: translateX(calc(-155% - 5rem)); }
-}
-
 .title-1 {
     margin: auto;
     display: inline-grid;
