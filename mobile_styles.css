@@ -451,7 +451,7 @@ white-space: nowrap;
 
 @keyframes scroll {
   from { transform: translateX(0); }
-  to { transform: translateX(calc(-155% - 1rem)); }
+  to { transform: translateX(calc(-155% - 5rem)); }
 }
 
 .title-1 {
