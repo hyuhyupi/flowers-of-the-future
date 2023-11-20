@@ -454,8 +454,7 @@ position: relative;
    top: 18vh;
 width: 100vw;
 background-color: rgb(251, 253, 252);
-    overflow-x: hidden;
-overflow-y: visible;
+overflow: visible;
 }
 
 .title-1 {
