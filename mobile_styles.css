@@ -397,7 +397,7 @@ background: #000000;
       font-size: 10px; 
   white-space: nowrap;
   will-change: transform;
-  animation: scroll 60s linear infinite;
+  animation: scroll 30s linear infinite;
   animation-direction: reverse;
 
 }
@@ -422,14 +422,14 @@ font-size: 20px;
 padding: 0.8rem;
 white-space: nowrap;
   will-change: transform;
-  animation: scroll 15s linear infinite;
+  animation: scroll 10s linear infinite;
   width: 100vw;
 }
-
 @keyframes scroll {
   from { transform: translateX(0); }
-  to { transform: translateX(calc(-50% - 1rem)); }
+  to { transform: translateX(calc(-70% - 1rem)); }
 }
+
 
 
 .grid{
