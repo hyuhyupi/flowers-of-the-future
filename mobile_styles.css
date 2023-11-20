@@ -439,6 +439,8 @@ width: 100vw;
 height: 100vh;
 background-color: rgb(251, 253, 252);
     overflow: scroll;
+    background-color: none;
+    z-index: -1;
 }
 
 .title-1 {
