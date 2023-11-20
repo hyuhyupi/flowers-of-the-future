@@ -434,7 +434,7 @@ white-space: nowrap;
 
 @keyframes scroll {
     from { transform: translateX(0); }
-    to { transform: translateX(calc(-66% ));
+    to { transform: translateX(calc(-100% ));
      }
   }
 
