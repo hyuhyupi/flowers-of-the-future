@@ -173,7 +173,6 @@
 html{
 margin: 0;
 min-width: 100vw;
-min-height: 100vh;
     max-width: 100vw;
 max-height: 100vh;
 overflow-y: visible;
@@ -181,7 +180,6 @@ overflow-y: visible;
 
 body{
     min-width: 100vw;
-    min-height: 100vh;
     overflow-y: visible;
 }
 .wrapper{
@@ -189,7 +187,6 @@ body{
     margin-right: 1.2rem;
     margin-bottom: 2rem;
     min-width: 100vw;
-    min-height: 100vh;
     overflow: visible;
 }
 
