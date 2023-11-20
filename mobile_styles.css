@@ -284,7 +284,7 @@ font-size: 20px;
 .header{
     margin: auto;
     top: 0;
-    position: fixed;
+    position: sticky;
 display: block;
     box-sizing: border-box;
     width: 100vw;
