@@ -293,7 +293,7 @@ display: block;
     display: block;
     padding-top: 1.5rem;
     padding-left: 1.5rem;
-    position: fixed;
+    position: relative;
     float: left;
     font-family: 'goozetteregular';
     font-style: normal;
@@ -306,7 +306,7 @@ display: block;
     }
 
 .header-text-gardens{
-position: fixed;
+position: relative;
 margin-left: 1.6rem;
 display: block;
 box-sizing: border-box;
