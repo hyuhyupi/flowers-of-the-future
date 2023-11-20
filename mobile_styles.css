@@ -166,6 +166,28 @@
 
 }
 
+
+@font-face {
+    font-family: 'xanh_monoitalic';
+    src: url('xanhmono-italic-webfont.woff2') format('woff2'),
+         url('xanhmono-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'xanh_monoregular';
+    src: url('xanhmono-regular-webfont.woff2') format('woff2'),
+         url('xanhmono-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 *{
     margin: 0;
 }
@@ -526,7 +548,6 @@ height: 10rem
     padding-top: 2rem;
     padding-right: 2rem;
     padding-left: 2rem;
-    padding-bottom: 2rem;
     position: relative;
     text-align: center;
     font-family: 'goozetteregular', sans-serif;
@@ -659,7 +680,7 @@ flex-wrap: wrap;
     border: none;
     outline: none;
     background-color: #ffffff;
-    font-family: 'Xanh Mono', monospace;
+    font-family: 'xanh_monoregular', monospace;
 font-size: 15px;
 line-height: 19px;
 position: relative;    
@@ -674,7 +695,7 @@ margin-right: 1rem;
     border: none;
     outline: none;
     background-color: #ffffff;
-    font-family: 'Xanh Mono', monospace;
+    font-family: 'xanh_monoregular', monospace;
 font-size: 15px;
 line-height: 19px;
 position: relative;    
@@ -849,7 +870,7 @@ float: left;
 width: 40vw;
  }
 .bio-1{
-    font-family: 'Xanh Mono', monospace;
+    font-family: 'xanh_monoregular', monospace;
     font-size: 18px;
     font-weight: normal;
     padding-top: 10rem;
@@ -860,8 +881,8 @@ width: 40vw;
 }
 
 .bio-1 i{
-    font-family: 'Xanh Mono', monospace;
-    font-style: italic;
+    font-family: 'xanh_monoitalic', monospace;
+    font-style: normal;
     font-size: 18px; 
     line-height: 1.4rem;
 letter-spacing: -0.3px;
@@ -994,7 +1015,7 @@ line-height: 0.8rem;
         
           .genre{
             display: inline-block;
-            font-family: 'Xanh Mono', monospace;
+            font-family: 'xanh_monoregular', monospace;
         font-size: 14px;
         line-height: 19px;
         position: relative;    
@@ -1080,7 +1101,8 @@ left: -11rem;
     position: relative;
     left: -12.5rem;
     top: -5rem;
-scale: 35%;
+
+scale: 50%;
 }
 
 .experience{
