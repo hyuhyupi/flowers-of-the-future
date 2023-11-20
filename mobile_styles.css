@@ -401,28 +401,6 @@ background: #000000;
   animation-direction: reverse;
 
 }
-
-@keyframes scroll {
-  from { transform: translateX(0); }
-  to { transform: translateX(calc(-55% - 1rem)); }
-}
-
-
-.grid{
-    box-sizing: border-box;
-    display: grid;
-    grid-template-columns: 50% 50%;    
-    grid-template-rows: 25vh 25vh 25vh;
-position: absolute;
-   right: 0;
-   top: 18vh;
-width: 100vw;
-height: 75rem;
-background-color: rgb(251, 253, 252);
-overflow-y: scroll;
-
-}
-
 .marquee-bottom{
 display: block;
 box-sizing: border-box;
@@ -447,6 +425,29 @@ white-space: nowrap;
   animation: scroll 15s linear infinite;
   width: 100vw;
 }
+
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(calc(-55% - 1rem)); }
+}
+
+
+.grid{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 50% 50%;    
+    grid-template-rows: 25vh 25vh 25vh;
+position: absolute;
+   right: 0;
+   top: 18vh;
+width: 100vw;
+height: 75rem;
+background-color: rgb(251, 253, 252);
+overflow-y: scroll;
+
+}
+
+
 
 .title-1 {
     margin: auto;
