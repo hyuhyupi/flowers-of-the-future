@@ -449,10 +449,11 @@ white-space: nowrap;
     display: grid;
     grid-template-columns: 50% 50%;    
     grid-template-rows: 25vh 25vh 25vh;
-position: relative;
+position: absolute;
    right: 0;
    top: 18vh;
 width: 100vw;
+    height: 100vh;
 background-color: rgb(251, 253, 252);
 overflow: visible;
 }
