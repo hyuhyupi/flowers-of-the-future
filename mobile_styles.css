@@ -182,7 +182,7 @@ body{
 .wrapper{
     margin-left: 1.2rem;
     margin-right: 1.2rem;
-    margin-bottom: 2rem;
+    margin-top: 0;
     min-width: 100vw;
     min-height: 100vh;
     overflow-x: hidden;
