@@ -455,7 +455,7 @@ width: 100vw;
 height: 100vh;
 background-color: rgb(251, 253, 252);
     overflow-x: hidden;
-        overflow-y: auto;
+        overflow-y: visible;
 }
 
 .title-1 {
