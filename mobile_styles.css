@@ -307,6 +307,7 @@ display: block;
     color: rgb(7, 7, 7);
     /* or 97px */
     letter-spacing: 0.055em; 
+        z-index: 2;
     }
 
 .header-text-gardens{
@@ -329,6 +330,7 @@ line-height: 1rem;
 letter-spacing: -0.045em;
 color: white;
 -webkit-text-stroke: 0.7px black;
+        z-index: 2;
 }
 
 /*TOP NAV MENU CODE*/
