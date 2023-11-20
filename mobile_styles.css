@@ -290,7 +290,6 @@ display: block;
     width: 100vw;
     background-color: white;
     height: 14vh;
-    z-index: 1;
 }
 
 .title {
@@ -317,6 +316,7 @@ display: block;
 box-sizing: border-box;
 padding-top: 4rem;
 height: 14vh;
+            z-index: 1;
 }
 
 
@@ -330,7 +330,6 @@ line-height: 1rem;
 letter-spacing: -0.045em;
 color: white;
 -webkit-text-stroke: 0.7px black;
-        z-index: 1;
 }
 
 /*TOP NAV MENU CODE*/
