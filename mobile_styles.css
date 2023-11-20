@@ -190,6 +190,7 @@ body{
     margin-bottom: 2rem;
     min-width: 100vw;
     overflow-y: scroll;
+    z-index: -1;
 }
 
 /* unvisited link */
