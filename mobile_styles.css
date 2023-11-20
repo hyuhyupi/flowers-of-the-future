@@ -290,6 +290,7 @@ display: block;
 
 .title {
     margin: auto;
+    display: block;
     padding-top: 1.5rem;
     padding-left: 1.5rem;
     position: fixed;
