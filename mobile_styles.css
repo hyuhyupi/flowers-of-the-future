@@ -190,7 +190,7 @@ body{
     margin-bottom: 2rem;
     min-width: 100vw;
     min-height: 100vh;
-    overflow-y: visible;
+    overflow: visible;
 }
 
 /* unvisited link */
