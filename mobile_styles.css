@@ -446,7 +446,7 @@ height: 100vh;
 
 .title-1 {
     margin: auto;
-    display: inline-grid;
+    display: block;
 position: relative;
 text-align: center;
 padding: 8px;
@@ -456,7 +456,7 @@ height: 10rem;
 
 .title-2 {
     margin: auto;
-    display: inline-grid;
+    display: block;
 position: relative;
 float: left;
 text-align: center;
@@ -467,7 +467,7 @@ height: 10rem
 
 .title-3 {
     margin: auto;
-    display: inline-grid;
+    display: block;
 position: relative;
 text-align: center;
 padding: 8px;
@@ -478,7 +478,7 @@ height: 10rem
 
 .title-4 {
     margin: auto;
-    display: inline-grid;
+    display: block;
 position: relative;
 text-align: center;
 padding: 8px;
@@ -488,7 +488,7 @@ height: 10rem
 
 .title-5{
     margin: auto;
-    display: inline-grid;
+    display: block;
 position: relative;
 text-align: center;
 padding: 8px;
