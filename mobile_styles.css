@@ -283,9 +283,8 @@ font-size: 20px;
 
 /* GENERATIVE HEADER ANIMATIONS*/
 .header{
-    margin: auto;
     top: 0;
-    position: absolute;
+    position: fixed;
 display: block;
     box-sizing: border-box;
     width: 100vw;
@@ -308,7 +307,7 @@ display: block;
     color: rgb(7, 7, 7);
     /* or 97px */
     letter-spacing: 0.055em; 
-        z-index: 2;
+        z-index: 1;
     }
 
 .header-text-gardens{
@@ -331,7 +330,7 @@ line-height: 1rem;
 letter-spacing: -0.045em;
 color: white;
 -webkit-text-stroke: 0.7px black;
-        z-index: 2;
+        z-index: 1;
 }
 
 /*TOP NAV MENU CODE*/
@@ -343,7 +342,7 @@ color: white;
 display: inline-block;
 width: 4.5rem;
 height: 14vh;
-z-index: 2;
+z-index: 1;
 border:#000000 1px solid;
 }
 
@@ -357,28 +356,7 @@ border:#000000 1px solid;
 display: block;
 width: 4.5rem;
 height: 5rem;
-z-index: 2;
-}
-
-
-
-#bar1 {
-    top: 37%;
-    margin-left: 35%;
-    position: relative; 
-    width: 25px;
-    height: 1.5px;
-    background-color: rgb(0, 0, 0);
-}
-
-#bar2 {
-    top: 37%;
-    margin-left: 35%;
-    position: relative; 
-    width: 25px;
-    height: 1.5px;
-    background-color: rgb(0, 0, 0);
-    transform: rotate(90deg);
+z-index: 1;
 }
 
 
