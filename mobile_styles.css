@@ -294,6 +294,7 @@ display: inline-block;
 
 .title {
     margin: auto;
+    top: 2rem;
     padding-top: 1.5rem;
     padding-left: 1.5rem;
     position: fixed;
