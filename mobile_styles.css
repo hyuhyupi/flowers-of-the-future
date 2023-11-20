@@ -175,13 +175,13 @@ margin: 0;
 min-width: 100vw;
     max-width: 100vw;
 max-height: 100vh;
-overflow-y: visible;
+overflow: scroll;
 }
 
 body{
     min-width: 100vw;
-    overflow-y: visible;
 }
+
 .wrapper{
     margin-left: 1.2rem;
     margin-right: 1.2rem;
