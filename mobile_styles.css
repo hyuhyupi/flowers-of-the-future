@@ -377,7 +377,7 @@ z-index: 2;
 .marquee {
     height: 25px;
     position: fixed;
-top: 0; 
+top: 4rem; 
 left: 0;   
 background: #000000;
     color: #ffffff;
@@ -399,8 +399,16 @@ background: #000000;
   will-change: transform;
   animation: scroll 30s linear infinite;
   animation-direction: reverse;
-
 }
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(calc(-70% - 1rem)); }
+}
+
+
+
+
+
 .marquee-bottom{
 display: block;
 box-sizing: border-box;
@@ -425,10 +433,12 @@ white-space: nowrap;
   animation: scroll 10s linear infinite;
   width: 100vw;
 }
+
 @keyframes scroll {
-  from { transform: translateX(0); }
-  to { transform: translateX(calc(-70% - 1rem)); }
-}
+    from { transform: translateX(0); }
+    to { transform: translateX(calc(-66% ));
+     }
+  }
 
 
 
