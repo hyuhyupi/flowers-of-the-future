@@ -376,7 +376,7 @@ z-index: 2;
 .marquee {
     height: 25px;
     position: fixed;
-margin-top: 13vh; 
+margin-top: 6rem; 
 left: 0;   
 background: #000000;
     color: #ffffff;
