@@ -1018,3 +1018,139 @@ width: fit-content;
     z-index: 2;
     cursor: pointer;
   }
+
+
+
+  
+.image{
+    display: block;
+    box-sizing: border-box;
+position: relative;
+left: -11rem;
+}
+
+#zines{
+    display: inline-block;
+    position: relative;
+    left: -12.5rem;
+    top: -5rem;
+    padding-left: 15rem;
+
+scale: 60%;
+}
+
+.experience{
+position: relative;
+top: -13rem;
+padding-top: 1.5rem;
+padding-left: 9.5rem;
+
+}
+
+.buds{
+    position: relative;
+top: -10rem;
+padding-left: 8rem;
+
+}
+
+.buds p{
+width: 60vw;
+padding-left: 1rem;
+padding-top: 1rem;
+
+}
+
+.buds sub{
+    width: 60vw;
+    padding-left: 1rem;
+    font-size: 10px;
+    float: left;
+    text-align: left;
+    }
+
+.experience-2{
+    position: relative;
+    top: -7rem;
+    padding-left: 8rem;
+    }
+
+    .experience-2 p{
+        font-family: 'goozetteregular';
+        font-style: normal;
+        font-weight: normal;  
+        color: #000000;
+        font-size: 20px;
+        line-height: 1.5rem;
+        width: 70vw;
+        }
+
+.experience p{
+    font-family: 'goozetteregular';
+    font-style: normal;
+    font-weight: normal;  
+    color: #000000;
+    font-size: 20px;
+    line-height: 1.5rem;
+    width: 70vw;
+}
+
+.line-2{
+    position: absolute;
+   margin-top: 1rem;
+    left: 0;
+    width: 100vw;
+    height: 1px;
+    background-color: #000000
+}
+
+.line-3{
+    position: absolute;
+   top: 38rem;
+    left: 0;
+    width: 100vw;
+    height: 1px;
+    background-color: #000000
+}
+
+.caption{
+    position: relative;
+}
+
+.experience-text-1{
+    width: 90vw;
+    position: relative;
+    padding-top: 5rem;
+}
+
+#zinesjpg{
+    position: relative;
+    padding-top: 1rem;
+    margin: auto;
+    width: 90vw;
+    height: 50vh;
+}
+
+#EX-1{
+    position: relative;
+    padding-top: 1rem;
+    margin: auto;
+    width: 28rem;
+    height: 25rem;  
+}
+
+#EX-2{
+    position: relative;
+    padding-top: 1rem;
+    margin: auto;
+    width: 27rem;
+    height: 27rem; 
+}
+
+#EX-3{
+    position: relative;
+    padding-top: 1rem;
+    margin: auto;
+    width: 27rem;
+    height: 27rem;  
+}
