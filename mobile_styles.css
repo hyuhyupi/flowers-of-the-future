@@ -290,6 +290,7 @@ display: block;
     width: 100vw;
     background-color: white;
     height: 14vh;
+    z-index: 1;
 }
 
 .title {
