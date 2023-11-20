@@ -444,6 +444,7 @@ position: absolute;
    top: 8rem;
 width: 100vw;
 height: 100vh;
+background-color: rgb(251, 253, 252);
     overflow-x: hidden;
 }
 
