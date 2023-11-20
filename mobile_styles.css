@@ -438,7 +438,7 @@ white-space: nowrap;
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 50% 50%;    
-    grid-template-rows: 12rem 12rem 12rem;
+    grid-template-rows: 10rem 10rem 10rem;
 position: absolute;
    right: 0;
    top: 8rem;
