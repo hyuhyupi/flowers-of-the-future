@@ -437,7 +437,7 @@ white-space: nowrap;
     display: grid;
     grid-template-columns: 50% 50%;    
     grid-template-rows: 10rem 10rem 10rem;
-position: absolute;
+position: relative;
    right: 0;
     top: 1.5rem;
 width: 100vw;
