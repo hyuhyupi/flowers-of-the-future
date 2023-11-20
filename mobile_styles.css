@@ -442,6 +442,7 @@ white-space: nowrap;
 position: absolute;
    right: 0;
    top: 10rem;
+       padding-top: 2rem;
     bottom: 3rem;
 width: 100vw;
 height: 100vh;
