@@ -446,6 +446,7 @@ white-space: nowrap;
 
 
 .grid{
+        box-sizing: border-box;
     display: grid;
     grid-template-columns: 50% 50%;    
     grid-template-rows: 25vh 25vh 25vh;
@@ -455,6 +456,7 @@ position: absolute;
 width: 100vw;
 height: 100%;
 background-color: rgb(251, 253, 252);
+    overflow: scroll;
 }
 
 .title-1 {
