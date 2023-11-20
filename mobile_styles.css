@@ -452,9 +452,9 @@ background-color: rgb(251, 253, 252);
     display: inline-grid;
 position: relative;
 text-align: center;
-padding: 10px;
+padding: 6px;
 width: 40vw;
-height: 25vh;
+height: 10rem;
 }
 
 .title-2 {
@@ -463,9 +463,9 @@ height: 25vh;
 position: relative;
 float: left;
 text-align: center;
-padding: 10px;
+padding: 6px;
 width: 40vw;
-height: 25vh;
+height: 10rem
 }
 
 .title-3 {
@@ -473,9 +473,9 @@ height: 25vh;
     display: inline-grid;
 position: relative;
 text-align: center;
-padding: 10px;
+padding: 6px;
 width: 40vw;
-height: 25vh;
+height: 10rem
 }
 
 
@@ -486,7 +486,7 @@ position: relative;
 text-align: center;
 padding: 10px;
 width: 40vw;
-height: 25vh;
+height: 10rem
 }
 
 .title-5{
@@ -496,7 +496,7 @@ position: relative;
 text-align: center;
 padding: 10px;
 width: 40vw;
-height: 25vh;
+height: 10rem
 }
 
 #seed, #sunflower, #conversations, #gloves, #watering-can{
