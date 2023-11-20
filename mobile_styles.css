@@ -419,8 +419,7 @@ position: absolute;
 width: 100vw;
 height: 75rem;
 background-color: rgb(251, 253, 252);
-    overflow-x: hidden;
-        overflow-y: visible;
+overflow-y: scroll;
 
 }
 
