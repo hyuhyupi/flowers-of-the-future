@@ -439,7 +439,7 @@ white-space: nowrap;
     grid-template-rows: 25vh 25vh 25vh;
 position: absolute;
    right: 0;
-   top: 18vh;
+   top: 10vh;
 width: 100vw;
 height: 75rem;
 background-color: rgb(251, 253, 252);
