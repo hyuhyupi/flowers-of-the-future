@@ -179,9 +179,7 @@ body{
     min-width: 100vw;
 }
 .wrapper{
-    margin: auto;
-    padding-left: 5px;
-    padding-right: 5px;
+    margin-left: 2rem;
     min-width: 100vw;
     min-height: 100vh;
 }
