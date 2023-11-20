@@ -174,7 +174,7 @@ html{
 margin: 0;
 min-width: 100vw;
 min-height: 100vh;
-overflow: auto;
+overflow-y: visible;
 }
 
 body{
