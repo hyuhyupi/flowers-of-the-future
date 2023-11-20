@@ -1426,7 +1426,7 @@ top: -11rem;
 
   .genre{
     display: inline-block;
-    font-family: 'xanh_monoitalic', monospace;
+    font-family: 'xanh_monoregular', monospace;
 font-size: 14px;
 line-height: 19px;
 position: relative;    
