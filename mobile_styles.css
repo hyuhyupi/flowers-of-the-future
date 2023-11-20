@@ -446,6 +446,7 @@ white-space: nowrap;
 
 
 .grid{
+    margin: auto;
         box-sizing: border-box;
     display: grid;
     grid-template-columns: 50% 50%;    
