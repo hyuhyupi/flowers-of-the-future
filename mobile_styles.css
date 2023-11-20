@@ -367,7 +367,7 @@ z-index: 1;
 .marquee {
     height: 25px;
     position: fixed;
-top: 0; 
+top: 18vh; 
 left: 0;   
 background: #000000;
     color: #ffffff;
