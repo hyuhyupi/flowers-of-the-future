@@ -187,6 +187,7 @@ body{
     margin-bottom: 2rem;
     min-width: 100vw;
     min-height: 100vh;
+    overflow-y: scroll;
 }
 
 /* unvisited link */
