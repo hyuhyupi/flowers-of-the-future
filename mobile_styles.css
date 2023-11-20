@@ -436,12 +436,13 @@ white-space: nowrap;
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 50% 50%;    
-    grid-template-rows: 10rem 10rem 10rem;
+    grid-template-rows: 13rem 13rem 13rem;
 position: absolute;
    right: 0;
-  top: 5rem;
+  top: 6rem;
 width: 100vw;
-height: 30rem;
+height: 40rem;
+overflow: auto;
 }
 
 .title-1 {
