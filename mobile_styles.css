@@ -498,7 +498,7 @@ height: 10rem
 
 #seed, #sunflower, #conversations, #gloves, #watering-can{
     display: block;
-    position: absolute;
+    position: relative;
     margin: auto;
     padding-bottom: 0.4rem;
     scale: 90%;
