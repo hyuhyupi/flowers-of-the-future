@@ -196,7 +196,6 @@ html{
 }
 
 .wrapper{
-    padding-right: 2rem;
     width: 100vw;
 }
 
@@ -717,6 +716,7 @@ font-weight: normal;
 color: #000000;
 font-size: 28px;
 padding-top: 20rem;
+padding-bottom: 5rem;
 padding-left: 9rem;
 width: 50vw;
 }
@@ -727,7 +727,8 @@ width: 50vw;
     font-weight: normal;  
     color: #000000;
     font-size: 28px;
-    padding-top: 12rem;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
     padding-left: 9rem;
     width: 50vw;
 }
@@ -765,7 +766,7 @@ width: 50vw;
 .tags{
     position: relative;
 top: 8rem;
-left: -63.7rem;
+left: -65.7rem;
 padding-bottom: 2rem;
 text-align: left;
 }
@@ -778,10 +779,13 @@ text-align: left;
 .interview-title-1{
     position: relative;
     margin: auto;
-    padding-top: 10rem;
+    padding-top: 8rem;
     padding-bottom: 10rem;
     left: -4rem;
     width: 70vw;
+}
+.interview-title-1 h1{
+    font-size: 40px;
 }
 .bio-1{
     display: block;
@@ -1117,22 +1121,42 @@ padding-top: 1rem;
     position: relative;
 }
 
+.caption sub{
+    float: left;
+    font-size: 12px;
+    padding-left: 10rem;
+}
 .experience-text-1{
-    width: 90vw;
+    width: 60vw;
     position: relative;
     padding-top: 5rem;
+    padding-left: 10rem;
+
+}
+.location{
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+    position: relative;
+    left: -12rem;
+}
+.location sub{
+  font-size: 12px;
+  width: 50%;
+text-align: left;
 }
 
 #zinesjpg{
     position: relative;
     padding-top: 1rem;
+    padding-left: 11rem;
     margin: auto;
-    width: 90vw;
-    height: 50vh;
+    width: 60rem;
+    height: 40rem;
 }
 
 #EX-1{
     position: relative;
+    padding-left: 9rem;
     padding-top: 1rem;
     margin: auto;
     width: 28rem;
@@ -1153,4 +1177,5 @@ padding-top: 1rem;
     margin: auto;
     width: 27rem;
     height: 27rem;  
+    padding-left: 9rem;
 }
