@@ -766,13 +766,14 @@ width: 50vw;
 .tags{
     position: relative;
 top: 8rem;
-left: -65.7rem;
+padding-left: 10.5rem;
 padding-bottom: 2rem;
-text-align: left;
 }
 
 .tags sub{
     font-size: 10px;
+    margin-left: 0;
+    text-align: left;
 }
 
 
@@ -794,7 +795,7 @@ text-align: left;
     font-size: 25px;
 padding-top: 15rem;    
 padding-bottom: 15rem;
-padding-left: 11rem;
+padding-left: 10.5rem;
 width: 55%;
 }
 
@@ -808,8 +809,7 @@ width: 55%;
 top: 3rem;
 width: 8rem;
 position: relative;
-left: 11rem;
-text-align: left;
+left: 10.5rem;
 display: block;
 font-family: 'JetBrains Mono', monospace;
     font-style: normal;
@@ -821,7 +821,7 @@ font-family: 'JetBrains Mono', monospace;
 .interview-text-1{
     position: relative;
     padding-bottom: 10rem;
-    padding-left: 11rem;
+    padding-left: 10.5rem;
     width: 60%;
 }
 
@@ -918,13 +918,16 @@ top: -11rem;
     overflow: clip;
 }
 
-.section-1 .section-2 .section-3{
+.section-1, .section-2, .section-3{
   position: relative;
-  margin: auto;  
+  margin-left: 0; 
+padding-bottom: 5px;
 }
 
 .section-1 sub, .section-2 sub, .section-3 sub{
-  font-size: 14px; 
+  font-size: 14px;
+  margin-left: 10px; 
+  float: left; 
   }
 
   
