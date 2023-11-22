@@ -309,8 +309,7 @@ display: block;
 .title {
     margin: auto;
     padding-top: 1.5rem;
-    padding-left: 1.5rem;
-    position: fixed;
+    position: absolute;
     float: left;
     font-family: 'goozetteregular';
     font-style: normal;
@@ -323,12 +322,11 @@ display: block;
     }
 
 .header-text-gardens{
-position: fixed;
-margin-left: 1.6rem;
+position: absolute;
+margin-left: 0.2rem;
 display: block;
 box-sizing: border-box;
 padding-top: 4rem;
-height: 14vh;
 }
 
 
@@ -615,18 +613,54 @@ margin-top: 1.2rem;
     display: block;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    font-family: 'Creato Display', sans-serif;
+    font-family: 'creato_displayregular', sans-serif;
     font-size: 16px;
     width: 90vw;
 }
 
+
 .description-about{
     display: block;
+    position: relative;
     box-sizing: border-box;
+    font-family: 'jetbrains_monoregular', monospace;
+    font-size: 10px;
+    width: 90vw;
+    padding-bottom: 5rem;
     padding-top: 10rem;
-    padding-bottom: 2rem;
-    font-family: 'Creato Display', sans-serif;
-    font-size: 16px;
+
+}
+
+
+
+.digital-garden{
+    display: block;
+    box-sizing: border-box;
+    font-family: 'creato_displaybold', sans-serif;
+    font-style: normal;
+    text-align: left;
+    font-size: 20px;
+    width: 90vw;
+position: relative;
+}
+
+.digital-garden p{
+   padding-top: 1rem;
+}
+
+
+.digital-garden sub{
+    font-size: 10px;
+    text-transform: uppercase;
+    top: -2rem;
+}
+
+.desc-text{
+    position: relative;
+width: 90vw;
+padding-top: 3rem;
+padding-bottom: 8rem;
+
 }
 
 .disclaimer {
@@ -908,6 +942,7 @@ line-height: 0.8rem;
 .interview-text-1{
     padding-bottom: 7.5rem;
     width: 90vw;
+    padding-left: 1rem;
 }
 
 .interview-text-1 b i{
