@@ -1,13 +1,4 @@
 @font-face {
-    font-family: 'creato_displayregular';
-    src: url('fonts/creatodisplay-regular-webfont.woff2') format('woff2'),
-         url('fonts/creatodisplay-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
     font-family: 'creato_displayblack_italic';
     src: url('fonts/creatodisplay-blackitalic-webfont.woff2') format('woff2'),
          url('fonts/creatodisplay-blackitalic-webfont.woff') format('woff');
@@ -178,8 +169,8 @@
 
 @font-face {
     font-family: 'xanh_monoitalic';
-    src: url('fonts/xanhmono-italic-webfont.woff2') format('woff2'),
-         url('fonts/xanhmono-italic-webfont.woff') format('woff');
+    src: url('xanhmono-italic-webfont.woff2') format('woff2'),
+         url('xanhmono-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -190,13 +181,12 @@
 
 @font-face {
     font-family: 'xanh_monoregular';
-    src: url('fonts/xanhmono-regular-webfont.woff2') format('woff2'),
-         url('fonts/xanhmono-regular-webfont.woff') format('woff');
+    src: url('xanhmono-regular-webfont.woff2') format('woff2'),
+         url('xanhmono-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
-
 
 *{
     margin: 0;
@@ -247,14 +237,14 @@ padding-top: 2.5rem;
 }
 
 h2 {
-font-family: 'creato_displaymedium', sans-serif;
+font-family: 'Creato Display Medium', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 25px;
 }
 
 p{
-font-family: 'creato_displayregular', sans-serif;
+font-family: 'Creato Display', sans-serif;
 font-style: normal;
 font-weight: normal;
 text-align: left;
@@ -265,8 +255,9 @@ letter-spacing: 0.2px;
 }
 
 b{
-    font-family: 'creato_displaybold', sans-serif;
+    font-family: 'Creato Display', sans-serif;
 font-style: normal;
+font-weight: 700;
 text-align: left;
 padding-bottom: 5px;
 font-size: 15px;
@@ -275,7 +266,7 @@ line-height: 1.3rem;
 
 
 i{
-    font-family: 'creato_displayitalic', sans-serif;
+    font-family: 'Creato Display', sans-serif;
 font-style: italic;
 font-weight: normal;
 text-align: left;
@@ -295,7 +286,7 @@ line-height: 0.2rem;
 
 
 li{
-font-family: 'creato_displayregular', sans-serif;
+font-family: 'Creato Display', sans-serif;
 font-style: normal;
 text-align: left;
 padding-bottom: 5px;
@@ -455,7 +446,6 @@ white-space: nowrap;
   animation: scroll 10s linear infinite;
   width: 100vw;
 }
-
 
 @keyframes scroll {
     from { transform: translateX(0); }
@@ -625,7 +615,7 @@ margin-top: 1.2rem;
     display: block;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    font-family: 'creato_displayregular', sans-serif;
+    font-family: 'Creato Display', sans-serif;
     font-size: 16px;
     width: 90vw;
 }
@@ -635,7 +625,7 @@ margin-top: 1.2rem;
     box-sizing: border-box;
     padding-top: 10rem;
     padding-bottom: 2rem;
-    font-family: 'creato_displayregular', sans-serif;
+    font-family: 'Creato Display', sans-serif;
     font-size: 16px;
 }
 
@@ -853,10 +843,12 @@ width: 70vw;
 /* interview pages 1 and 2 */
 
 .interview-title-1{
+    position: relative;
     padding-top: 4rem;
     padding-bottom: 1rem;
     width: 80vw;
 }
+
 
 .img{
     position: relative;
@@ -927,7 +919,7 @@ line-height: 0.8rem;
 .pullquote{
     display: block;
     box-sizing: border-box;
-    font-family: 'creato_displayregular', sans-serif;
+    font-family: 'Creato Display', sans-serif;
     font-style: normal;
     font-weight: 600;
     text-align: left;
@@ -963,7 +955,6 @@ line-height: 0.8rem;
             margin: auto;
             width: 100vw;
             justify-content: space-between;
-            overflow-x: hidden;
             padding-bottom: 5rem;
             padding-left: 0;
             margin-left: 0;
@@ -1010,7 +1001,8 @@ line-height: 0.8rem;
             padding: 7rem;
           }
         
-          .book-title sub{
+          .book-title p{
+            font-family: 'jetbrains_monoitalic', monospace;
             position: relative;
             display: block;
             font-style: italic;
@@ -1018,22 +1010,45 @@ line-height: 0.8rem;
             font-size: 15px;
             font-weight: normal;
             padding-top: 0.5rem;
-            padding-bottom: 0.5rem;
+            padding-right: 2rem;
+            line-height: 1.3rem;
+          }
+
+          .book-title sub{
+            position: relative;
+            display: block;
+            text-transform: uppercase;
+            text-align: left;
+            font-size: 10px;
+            font-weight: normal;
             padding-right: 2rem;
             line-height: 1.3rem;
           }
         
-        
-          .genre{
-            display: inline-block;
-            font-family: 'xanh_monoregular', monospace;
+        .genre-box{
+        position: relative;
+        display: flex;
+        top: -1rem;
+flex-wrap: wrap;
+ justify-content: stretch;
+ width: 100vw;
+ padding-left: 8.5rem;
+ padding-bottom: 2rem;
+        }
+
+        .genre{
+        position: relative;
+        display: block;
+        left: -8.5rem;
+        font-family: 'xanh_monoregular', monospace;
+        font-style: normal;
+        font-weight: normal;
         font-size: 14px;
         line-height: 19px;
         position: relative;    
         border: 1px solid #000000;
         border-radius: 2rem;
         padding: 9px;
-        margin-top: 0.5rem ;
         margin-right: 0.5rem;
         width: fit-content;
           }
@@ -1082,7 +1097,7 @@ max-height: 0;
     }
 
   .panel-text p{
-font-family: 'creato_displayregular', sans-serif;  
+font-family: 'Creato Display', sans-serif;  
 font-size: 15px;
 }
   .accordion:active, .panel{
@@ -1099,6 +1114,9 @@ top: -10rem;
 width: 90vw;
 }
 
+.interview-title-1 h1{
+    left: -3rem;
+}
 
 .image{
     display: block;
@@ -1110,10 +1128,10 @@ left: -11rem;
 #zines{
     display: inline-block;
     position: relative;
-    left: -12.5rem;
+    left: -13.5rem;
     top: -5rem;
 
-scale: 50%;
+scale: 45%;
 }
 
 .experience{
@@ -1178,8 +1196,8 @@ top: -13rem;
     position: relative;
     padding-top: 1rem;
     margin: auto;
-    width: 90vw;
-    height: 50vh;
+    width: 28.5rem;
+    height: 40vh;
 }
 
 #EX-1{
