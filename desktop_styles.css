@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'creato_displayregular';
-    src: url('fonts/creatodisplay-regular-webfont.woff2') format('woff2'),
-         url('fonts/creatodisplay-regular-webfont.woff') format('woff');
+    src: url('creatodisplay-regular-webfont.woff2') format('woff2'),
+         url('creatodisplay-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -191,7 +191,7 @@
 @font-face {
     font-family: 'xanh_monoregular';
     src: url('fonts/xanhmono-regular-webfont.woff2') format('woff2'),
-         url('fonts/xanhmono-regular-webfont.woff') format('woff');
+         url('fonts/x') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -524,7 +524,6 @@ margin-top: 0.7rem;
     flex-wrap: wrap;
      justify-content: stretch;
      width: 100vw;
-    font-family: 'xanhmono_regular', monospace;
     }
 
 .description{
@@ -632,6 +631,8 @@ flex-wrap: wrap;
     outline: none;
     background-color: #ffffff;
     font-family: 'xanh_monoregular', monospace;
+    font-weight: normal;
+    font-style: normal;
 font-size: 15px;
 line-height: 19px;
 position: relative;    
@@ -647,6 +648,8 @@ margin-right: 1rem;
     outline: none;
     background-color: #ffffff;
     font-family: 'xanh_monoregular', monospace;
+    font-weight: normal;
+    font-style: normal;
 font-size: 15px;
 line-height: 19px;
 position: relative;    
@@ -1048,19 +1051,34 @@ padding-bottom: 5px;
   }
 
 
-  .genre{
-    display: inline-block;
+  .genre-box{
+    position: relative;
+    display: flex;
+    top: -1rem;
+flex-wrap: wrap;
+justify-content: stretch;
+width: 100vw;
+padding-left: 8.5rem;
+padding-bottom: 2rem;
+    }
+
+    .genre{
+    position: relative;
+    display: block;
+    left: -8.5rem;
     font-family: 'xanh_monoregular', monospace;
-font-size: 14px;
-line-height: 19px;
-position: relative;    
-border: 1px solid #000000;
-border-radius: 2rem;
-padding: 9px;
-margin-top: 0.5rem ;
-margin-right: 0.5rem;
-width: fit-content;
-  }
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    position: relative;    
+    border: 1px solid #000000;
+    border-radius: 2rem;
+    padding: 9px;
+    margin-right: 0.5rem;
+    width: fit-content;
+      }
+
 
   #overlay-1 {
     position: fixed;
