@@ -169,8 +169,8 @@
 
 @font-face {
     font-family: 'xanh_monoitalic';
-    src: url('xanhmono-italic-webfont.woff2') format('woff2'),
-         url('xanhmono-italic-webfont.woff') format('woff');
+    src: url('fonts/xanhmono-italic-webfont.woff2') format('woff2'),
+         url('fonts/xanhmono-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -181,8 +181,8 @@
 
 @font-face {
     font-family: 'xanh_monoregular';
-    src: url('xanhmono-regular-webfont.woff2') format('woff2'),
-         url('xanhmono-regular-webfont.woff') format('woff');
+    src: url('fonts/xanhmono-regular-webfont.woff2') format('woff2'),
+         url('fonts/xanhmono-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
