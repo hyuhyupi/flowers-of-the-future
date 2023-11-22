@@ -420,7 +420,7 @@ margin-top: 0.7rem;
 
 .initiatives sub{
     position: relative;
-     font-family: 'JetBrains Mono', monospace;
+     font-family: 'jetbrainsmono_regular', monospace;
     font-style: normal;
     font-weight: 500;
     text-align: left;
@@ -673,7 +673,7 @@ margin-right: 1rem;
     padding-top: 0.5rem;
     text-transform: uppercase;
     font-size: 9.5px;
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'jetbrainsmono_regular', monospace;
     width: 90%;
 }
 
@@ -691,7 +691,7 @@ margin-right: 1rem;
 
 
 .learnmore{
-font-family: 'JetBrains Mono', monospace;
+font-family: 'jetbrainsmono_regular', monospace;
 font-size: 10px;
 position: relative;
 padding-left: 1rem;
@@ -862,7 +862,7 @@ width: 8rem;
 position: relative;
 left: 10.5rem;
 display: block;
-font-family: 'JetBrains Mono', monospace;
+font-family: 'jetbrainsmono_regular', monospace;
     font-style: normal;
     font-weight: 500;
     text-align: left;
