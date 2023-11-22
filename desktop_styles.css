@@ -282,9 +282,9 @@ float: left;
 }
 
 h2 {
-    font-family: 'creato_displayregular', sans-serif;
+    font-family: 'creato_displaymedium', sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: normal;
     font-size: 40px;
 }
 
@@ -299,9 +299,8 @@ p{
 }
 
 sub{
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'jetbrainsmono_regular', monospace;
     font-style: normal;
-    font-weight: 500;
     text-align: left;
     font-size: 12px; 
 }
@@ -317,9 +316,8 @@ li{
 }
 
 b{
-    font-family: 'creato_displayregular', sans-serif;
+    font-family: 'creato_displaybold', sans-serif;
 font-style: normal;
-font-weight: 700;
 text-align: left;
 padding-bottom: 5px;
 font-size: 20px;
@@ -378,9 +376,8 @@ margin-top: 0.7rem;
     display: block;
     font-size: 9px;
     text-align: left;
-    font-family: 'JetBrains Mono', monospace, bold;
+    font-family: 'jetbrainsmono_regular', monospace, bold;
     position: relative;
-    font-weight: 800;
     margin: auto;
     margin-top: 1.3rem;
     padding-left: 1rem;
@@ -556,9 +553,8 @@ padding-left: 8rem;
     display: block;
     box-sizing: border-box;
     width: 70%;
-    font-family: 'creato_displayregular', sans-serif;
+    font-family: 'creato_displaymedium', sans-serif;
     font-style: normal;
-    font-weight: 600;
     text-align: left;
     padding-bottom: 10rem;
     padding-left: 11rem;
@@ -634,7 +630,7 @@ flex-wrap: wrap;
     border: none;
     outline: none;
     background-color: #ffffff;
-    font-family: 'Xanh Mono', monospace;
+    font-family: 'xanh_monoregular', monospace;
 font-size: 15px;
 line-height: 19px;
 position: relative;    
@@ -649,7 +645,7 @@ margin-right: 1rem;
     border: none;
     outline: none;
     background-color: #ffffff;
-    font-family: 'Xanh Mono', monospace;
+    font-family: 'xanh_monoregular', monospace;
 font-size: 15px;
 line-height: 19px;
 position: relative;    
@@ -846,7 +842,7 @@ padding-bottom: 2rem;
 .bio-1{
     display: block;
     position: relative;
-    font-family: 'Xanh Mono', monospace;
+    font-family: 'xanh_monoregular', monospace;
     font-size: 25px;
 padding-top: 15rem;    
 padding-bottom: 15rem;
@@ -855,7 +851,7 @@ width: 55%;
 }
 
 .bio-1 i{
-    font-family: 'Xanh Mono', monospace;
+    font-family: 'xanh_monoregular', monospace;
     font-style: italic;
     font-size: 25px; 
 }
@@ -884,9 +880,8 @@ font-family: 'JetBrains Mono', monospace;
     display: block;
     box-sizing: border-box;
     width: 70%;
-    font-family: 'creato_displayregular', sans-serif;
+    font-family: 'creato_displaybold', sans-serif;
     font-style: normal;
-    font-weight: 600;
     text-align: left;
     padding-bottom: 10rem;
     padding-left: 11rem;
@@ -1055,7 +1050,7 @@ padding-bottom: 5px;
 
   .genre{
     display: inline-block;
-    font-family: 'Xanh Mono', monospace;
+    font-family: 'xanh_monoregular', monospace;
 font-size: 14px;
 line-height: 19px;
 position: relative;    
