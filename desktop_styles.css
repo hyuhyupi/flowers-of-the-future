@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'creato_displayregular';
-    src: url('creatodisplay-regular-webfont.woff2') format('woff2'),
-         url('creatodisplay-regular-webfont.woff') format('woff');
+    src: url('fonts/creatodisplay-regular-webfont.woff2') format('woff2'),
+         url('fonts/creatodisplay-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -191,7 +191,7 @@
 @font-face {
     font-family: 'xanh_monoregular';
     src: url('fonts/xanhmono-regular-webfont.woff2') format('woff2'),
-         url('fonts/x') format('woff');
+         url('fonts/xanhmono-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
