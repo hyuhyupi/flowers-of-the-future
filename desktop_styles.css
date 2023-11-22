@@ -524,6 +524,7 @@ margin-top: 0.7rem;
     flex-wrap: wrap;
      justify-content: stretch;
      width: 100vw;
+    font-family: 'xanhmono_regular', monospace;
     }
 
 .description{
