@@ -1,4 +1,13 @@
 @font-face {
+    font-family: 'creato_displayregular';
+    src: url('creatodisplay-regular-webfont.woff2') format('woff2'),
+         url('creatodisplay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
     font-family: 'creato_displayblack_italic';
     src: url('fonts/creatodisplay-blackitalic-webfont.woff2') format('woff2'),
          url('fonts/creatodisplay-blackitalic-webfont.woff') format('woff');
@@ -237,14 +246,14 @@ padding-top: 2.5rem;
 }
 
 h2 {
-font-family: 'Creato Display Medium', sans-serif;
+font-family: 'creato_displaymedium', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 25px;
 }
 
 p{
-font-family: 'Creato Display', sans-serif;
+font-family: 'creato_displayregular', sans-serif;
 font-style: normal;
 font-weight: normal;
 text-align: left;
@@ -255,9 +264,8 @@ letter-spacing: 0.2px;
 }
 
 b{
-    font-family: 'Creato Display', sans-serif;
+    font-family: 'creato_displaybold', sans-serif;
 font-style: normal;
-font-weight: 700;
 text-align: left;
 padding-bottom: 5px;
 font-size: 15px;
@@ -266,7 +274,7 @@ line-height: 1.3rem;
 
 
 i{
-    font-family: 'Creato Display', sans-serif;
+    font-family: 'creato_displayitalic', sans-serif;
 font-style: italic;
 font-weight: normal;
 text-align: left;
@@ -286,7 +294,7 @@ line-height: 0.2rem;
 
 
 li{
-font-family: 'Creato Display', sans-serif;
+font-family: 'creato_displayregular', sans-serif;
 font-style: normal;
 text-align: left;
 padding-bottom: 5px;
@@ -614,7 +622,7 @@ margin-top: 1.2rem;
     display: block;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    font-family: 'Creato Display', sans-serif;
+    font-family: 'creato_displayregular', sans-serif;
     font-size: 16px;
     width: 90vw;
 }
@@ -624,7 +632,7 @@ margin-top: 1.2rem;
     box-sizing: border-box;
     padding-top: 10rem;
     padding-bottom: 2rem;
-    font-family: 'Creato Display', sans-serif;
+    font-family: 'creato_displayregular', sans-serif;
     font-size: 16px;
 }
 
@@ -916,7 +924,7 @@ line-height: 0.8rem;
 .pullquote{
     display: block;
     box-sizing: border-box;
-    font-family: 'Creato Display', sans-serif;
+    font-family: 'creato_displayregular', sans-serif;
     font-style: normal;
     font-weight: 600;
     text-align: left;
@@ -1071,7 +1079,7 @@ max-height: 0;
     }
 
   .panel-text p{
-font-family: 'Creato Display', sans-serif;  
+font-family: 'creato_displayregular', sans-serif;  
 font-size: 15px;
 }
   .accordion:active, .panel{
