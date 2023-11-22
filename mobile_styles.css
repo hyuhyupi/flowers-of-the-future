@@ -435,7 +435,8 @@ display: block;
 box-sizing: border-box;
 position: fixed;
 bottom: 0;
-background: black;
+background: rgb(255, 255, 255);
+border: #000000 1px solid;
 overflow: hidden;
 left: 0;
 height: 55px;
@@ -446,7 +447,7 @@ width: 100vw;
 font-family: 'goozetteregular';
 font-style: normal;
 font-weight: normal;  
-color: #ffffff;
+color: #000000;
 font-size: 20px;
 padding: 0.8rem;
 white-space: nowrap;
@@ -454,6 +455,7 @@ white-space: nowrap;
   animation: scroll 10s linear infinite;
   width: 100vw;
 }
+
 
 @keyframes scroll {
     from { transform: translateX(0); }
