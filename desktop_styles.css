@@ -1,4 +1,13 @@
 @font-face {
+    font-family: 'creato_displayregular';
+    src: url('creatodisplay-regular-webfont.woff2') format('woff2'),
+         url('creatodisplay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
     font-family: 'creato_displayblack_italic';
     src: url('fonts/creatodisplay-blackitalic-webfont.woff2') format('woff2'),
          url('fonts/creatodisplay-blackitalic-webfont.woff') format('woff');
@@ -197,6 +206,7 @@ html{
 
 .wrapper{
     width: 100vw;
+    margin: auto;
 }
 
 .desktop-overflow{
@@ -228,15 +238,35 @@ border-color: rgb(27, 160, 27);
     position: relative;
     float: left;
     padding-top: 4rem;
+    padding-left: 8rem;
     font-family: 'Goozette';
     font-style: normal;
     font-weight: 400;
-    font-size: 110px;
+    font-size: 90px;
     line-height: 101%;
     color: rgb(7, 7, 7);
     /* or 97px */
     letter-spacing: 0.055em; 
 }
+
+.header-text-gardens{
+    position: relative;
+    margin: auto;
+    padding-top: 4.5rem;
+    }
+    
+    #header-text-gardens {
+    position: relative;
+    padding-left: 18px;
+    font-family: 'Goozette';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 101%;
+    letter-spacing: -0.045em;
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke: 1px black;
+    }
 
 h1{
     margin: auto;
@@ -252,14 +282,14 @@ float: left;
 }
 
 h2 {
-    font-family: 'Creato Display', sans-serif;
+    font-family: 'creato_displayregular', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
 }
 
 p{
-    font-family: 'Creato Display', sans-serif;
+    font-family: 'creato_displayregular', sans-serif;
     font-style: normal;
     text-align: left;
     padding-bottom: 5px;
@@ -278,7 +308,7 @@ sub{
 
 
 li{
-    font-family: 'Creato Display', sans-serif;
+    font-family: 'creato_displayregular', sans-serif;
     font-style: normal;
     text-align: left;
     padding-bottom: 5px;
@@ -287,13 +317,13 @@ li{
 }
 
 b{
-    font-family: 'Creato Display', sans-serif;
+    font-family: 'creato_displayregular', sans-serif;
 font-style: normal;
 font-weight: 700;
 text-align: left;
 padding-bottom: 5px;
 font-size: 20px;
-line-height: 2rem;
+line-height: 1.8rem;
 }
 
 
@@ -505,7 +535,7 @@ margin-top: 2rem;
 padding-top: 2rem;
 padding-left: 8rem;
     padding-bottom: 2rem;
-    font-family: 'Creato Display', sans-serif;
+    font-family: 'creato_displayregular', sans-serif;
     font-size: 20px;
     line-height: 1.8rem;
     width: 50vw;
@@ -514,10 +544,35 @@ padding-left: 8rem;
 .description-about{
     display: block;
     box-sizing: border-box;
-    padding-top: 10rem;
-    padding-bottom: 2rem;
-    font-family: 'Creato Display', sans-serif;
-    font-size: 16px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 11rem;
+    width: 70vw;
+    font-family: 'jetbrains_monoregular', monospace;
+    font-size: 12px;
+}
+
+.digital-garden{
+    display: block;
+    box-sizing: border-box;
+    width: 70%;
+    font-family: 'creato_displayregular', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: 10rem;
+    padding-left: 11rem;
+    font-size: 35px;
+    line-height: 3rem;
+}
+
+.digital-garden p{
+padding-top: 4rem;
+}
+
+.digital-garden sub{
+    font-size: 12px;
+    text-transform: uppercase;
 }
 
 .disclaimer{
@@ -829,7 +884,7 @@ font-family: 'JetBrains Mono', monospace;
     display: block;
     box-sizing: border-box;
     width: 70%;
-    font-family: 'Creato Display', sans-serif;
+    font-family: 'creato_displayregular', sans-serif;
     font-style: normal;
     font-weight: 600;
     text-align: left;
