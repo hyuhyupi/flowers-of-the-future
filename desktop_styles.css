@@ -1043,7 +1043,7 @@ padding-bottom: 5px;
     padding: 7rem;
   }
 
-  .book-title{
+  .book-title p{
     font-family: 'jetbrains_monoitalic', monospace;
     font-style: normal;
     font-weight: normal;
@@ -1062,7 +1062,7 @@ padding-bottom: 5px;
     text-transform: uppercase;
     text-align: left;
     font-size: 10px;
-font-family: 'jetbrains_monoitalic', monospace;
+font-family: 'jetbrains_monoregular', monospace;
 font-style: normal;
     font-weight: normal;
     top: -1rem;
