@@ -1057,14 +1057,14 @@ padding-bottom: 5px;
   }
 
   .book-title sub{
+      font-family: 'jetbrains_monoregular', monospace;
+font-style: normal;
+    font-weight: normal;
     position: relative;
     display: block;
     text-transform: uppercase;
     text-align: left;
     font-size: 10px;
-font-family: 'jetbrains_monoregular', monospace;
-font-style: normal;
-    font-weight: normal;
     top: -1rem;
     padding-right: 2rem;
   }
