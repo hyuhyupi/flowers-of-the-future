@@ -699,7 +699,7 @@ font-family: 'jetbrains_monoregular', monospace;
 font-size: 10px;
 position: relative;
 padding-left: 1rem;
-padding-top: 1rem;
+padding-top: 0.5rem;
 padding-bottom: 2rem;
 float: left;
 box-sizing: border-box;
@@ -820,8 +820,8 @@ width: 50vw;
 /* interviews - tash and tian */
 .tags{
     position: relative;
-top: 2rem;
-padding-left: 1rem;
+top: 8rem;
+padding-left: 10.5rem;
 padding-bottom: 2rem;
 }
 
@@ -837,8 +837,8 @@ padding-bottom: 2rem;
     margin: auto;
     padding-top: 8rem;
     padding-bottom: 10rem;
-    left: -4rem;
-    width: 70vw;
+    left: -6rem;
+    width: 65vw;
 }
 .interview-title-1 h1{
     font-size: 40px;
@@ -986,20 +986,20 @@ padding-bottom: 5px;
   
 
   /* books */
-
-.flex-2{
+  
+  .flex-2{
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
     top: 3rem;
     position: relative;
-    margin: auto;
     width: 90vw;
     justify-content: space-between;
-    overflow-x: hidden;
-    left: 3rem;
     padding-bottom: 5rem;
-    padding-right: 2rem;
+    left: 8rem;
+    padding-right: 1rem;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .book{
@@ -1009,12 +1009,18 @@ padding-bottom: 5px;
     width: 25rem;
     height: 40rem;
     padding-bottom: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 
 .thumbnail-box{
     display: block;
+    margin-right: 2rem;
     box-sizing: border-box;
     margin: auto;
+    margin-left: 0;
     position: relative;
     height: 25rem;
     width: 25rem;
@@ -1028,7 +1034,6 @@ padding-bottom: 5px;
     position: relative;
     padding: 2rem;
   }
-
   #book-thumbnail-square{
     height: 12rem;
     width: 12rem;
@@ -1038,62 +1043,112 @@ padding-bottom: 5px;
     padding: 7rem;
   }
 
+  .book-title p{
+    font-family: 'jetbrains_monoitalic', monospace;
+    position: relative;
+    display: block;
+    font-style: normal;
+    text-align: left;
+    font-size: 15px;
+    font-weight: normal;
+    padding-top: 0.5rem;
+    padding-right: 2rem;
+    line-height: 1.3rem;
+  }
+
   .book-title sub{
     position: relative;
     display: block;
-    font-style: italic;
+    text-transform: uppercase;
     text-align: left;
-    font-size: 18px;
-    font-weight: 500;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    font-size: 10px;
+    font-weight: normal;
+    top: -1rem;
     padding-right: 2rem;
   }
 
-
-  .genre-box{
-    position: relative;
-    display: flex;
-    top: -1rem;
+.genre-box{
+position: relative;
+display: flex;
+top: -1rem;
 flex-wrap: wrap;
 justify-content: stretch;
-width: 100vw;
+width: 25rem;
 padding-left: 8.5rem;
 padding-bottom: 2rem;
-    }
+}
 
-    .genre{
-    position: relative;
-    display: block;
-    left: -8.5rem;
-    font-family: 'xanh_monoregular';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
-    position: relative;    
-    border: 1px solid #000000;
-    border-radius: 2rem;
-    padding: 9px;
-    margin-right: 0.5rem;
-    width: fit-content;
-      }
-
-
-  #overlay-1 {
-    position: fixed;
-    display: none;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5);
-    z-index: 2;
-    cursor: pointer;
+.genre{
+position: relative;
+display: block;
+left: -8.5rem;
+font-family: 'xanh_monoregular', monospace;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+position: relative;    
+border: 1px solid #000000;
+border-radius: 2rem;
+padding: 9px;
+margin-right: 0.5rem;
+margin-top: 0.5rem;
+width: fit-content;
   }
 
+
+
+
+/*grants*/
+.accordion {
+    cursor: pointer;
+    padding: 1rem;
+    width: 100%;
+    background-color: #FFEAF9;
+    border: 1px solid #000000;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+  }
+
+.accordion p{
+  font-family: 'goozetteregular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    position: relative;
+    padding-top: 0.5rem;
+}
+  
+  .active, .accordion:hover{
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  .panel {
+max-height: 0;
+    display: none;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .panel-text{
+    padding-top: 2rem;
+    padding-left: 0.5rem;
+
+  }
+
+  .panel-text h2{
+    font-size: 18px;
+    }
+
+  .panel-text p{
+font-family: 'Creato Display', sans-serif;  
+font-size: 15px;
+}
+  .accordion:active, .panel{
+    display: block;
+overflow: hidden;
+  }
 
 
   
@@ -1208,10 +1263,10 @@ padding-top: 1rem;
     padding-top: 1rem;
     padding-bottom: 5rem;
     position: relative;
-    left: -10rem;
+    left: -12rem;
 }
 .location sub{
-  font-size: 12px;
+  font-size: 10px;
   width: 50%;
 text-align: left;
 }
@@ -1221,7 +1276,7 @@ text-align: left;
     padding-top: 1rem;
     padding-left: 10rem;
     margin: auto;
-    width: 60rem;
+    width: 55rem;
     height: 40rem;
 }
 
