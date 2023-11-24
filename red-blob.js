@@ -481,7 +481,7 @@ canvasElements.forEach(function(canvas) {
 
   // Define an array of blob configurations
   var blobConfigurations = [
-    {color: "red", margin: 0, numPoints: 30, x: -30, y: 70, scale: 0.64},
+    {color: "red", margin: 0, numPoints: 30, x: -30, y: 70, scale: 0.57},
   ]
 
    // Create responsive blobs

@@ -10,21 +10,6 @@
  }
 
 
- const cursor = document.querySelector('.circularcursor');
- 
- 
- const positionElement = (e)=> {
-   const mouseY = e.clientY;
-   const mouseX = e.clientX;
-    
-   cursor.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0)`;
-     
- }
- 
- window.addEventListener('mousemove', positionElement)
-
-
-
 //blob script adapted from: https://codepen.io/tfrere/pen/wvyeOwe
 
 class ResponsiveBlob {
@@ -549,8 +534,8 @@ if (window.innerWidth < 1440) {
   blobConfigurations = [
     { color: "orange", margin: 0, numPoints: 30, x: 280, y: 45, scale: 0.59 },
     { color: "red", margin: 0, numPoints: 30, x: 120, y: 70, scale: 0.65 },
-    { color: "blue", margin: 0, numPoints: 30, x: 420, y: 130, scale: 0.65 },
-    { color: "green", margin: 0, numPoints: 30, x: 300, y: 130, scale: 0.61 },
+    { color: "blue", margin: 0, numPoints: 30, x: 500, y: 130, scale: 0.61 },
+    { color: "green", margin: 0, numPoints: 30, x: 300, y: 130, scale: 0.65 },
     { color: "magenta", margin: 0, numPoints: 30, x: 370, y: 55, scale: 0.6 },
   ];
 }

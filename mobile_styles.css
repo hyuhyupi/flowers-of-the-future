@@ -309,6 +309,7 @@ display: block;
 .title {
     margin: auto;
     padding-top: 1.5rem;
+    padding-left: 1rem;
     position: absolute;
     float: left;
     font-family: 'goozetteregular';
@@ -324,6 +325,7 @@ display: block;
 .header-text-gardens{
 position: absolute;
 margin-left: 0.2rem;
+padding-left: 1rem;
 display: block;
 box-sizing: border-box;
 padding-top: 4rem;
@@ -534,19 +536,17 @@ height: 10rem
     height: 6rem;
     position: relative;
     margin: auto;
-    padding-bottom: 5px;
     bottom: 5px;
     right: 0;
     border: #000000 1px solid;
     background-color: #8bee84;
     border-radius: 5rem;
+    z-index: 1;
 }
 
 .about-mobile p{
     margin: auto;
-    padding-top: 2rem;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding: 2rem;
     position: relative;
     text-align: center;
     font-family: 'goozetteregular', sans-serif;
@@ -885,22 +885,30 @@ width: 70vw;
 
 .img{
     position: relative;
-    margin: auto;
 left: 0;
+width: 20vw;
+height: 20vh;
+display: block;
+box-sizing: border-box;
+}
 
+#tash-image{
+    scale: 70%;
+    top: -13rem;
+    left: -10rem;
+    position: relative;
 }
 
  #manifesto{
     position: relative;
-height: 80vh;
-width: 70vw;    
-left: 0;
+height: 32rem;
+width: 18rem;    
 display: block;
  }
 
  .img sub{
 position: relative;
-padding-top: 2rem;
+padding-top: 1rem;
 line-height: 0.8rem;
 float: left;
 width: 40vw;
@@ -908,8 +916,9 @@ width: 40vw;
 .bio-1{
     font-family: 'xanh_monoregular', monospace;
     font-size: 18px;
+    position: relative;
     font-weight: normal;
-    padding-top: 10rem;
+    padding-top: 30rem;
     padding-bottom: 10rem;
     line-height: 1.4rem;
     letter-spacing: -0.3px;
@@ -1088,12 +1097,17 @@ flex-wrap: wrap;
 
 
 /*grants*/
+.accordion-box{
+    margin-top: 3rem;
+}
 .accordion {
     cursor: pointer;
     padding: 1rem;
-    width: 100%;
+    width: 80vw;
+    padding-left: 2rem;
     background-color: #FFEAF9;
     border: 1px solid #000000;
+    border-radius: 2rem;
     text-align: left;
     outline: none;
     transition: 0.4s;
@@ -1117,26 +1131,41 @@ flex-wrap: wrap;
 max-height: 0;
     display: none;
     transition: max-height 0.2s ease-out;
+    width: 80vw;
+    position: relative;
   }
 
   .panel-text{
     padding-top: 2rem;
-    padding-left: 0.5rem;
-
+    padding-left: 2rem;
+position: relative;
   }
 
   .panel-text h2{
     font-size: 18px;
+    font-family: 'creato_displaymedium', sans-serif;
     }
 
   .panel-text p{
-font-family: 'Creato Display', sans-serif;  
+font-family: 'creato_displayregular', sans-serif;  
 font-size: 15px;
+padding-top: 0.5rem;
 }
   .accordion:active, .panel{
     display: block;
 overflow: hidden;
   }
+
+  .line-4{
+    position: relative;
+   margin-top: 4rem;
+    left: 2rem;
+    right: 2rem;
+    width: 76vw;
+    height: 2px;
+    border-radius: 1rem;
+    background-color: #000000
+}
 
   .buds{
     position: relative;
@@ -1164,7 +1193,7 @@ left: -11rem;
     left: -13.5rem;
     top: -5rem;
 
-scale: 45%;
+scale: 40%;
 }
 
 .experience{
@@ -1229,8 +1258,8 @@ top: -13rem;
     position: relative;
     padding-top: 1rem;
     margin: auto;
-    width: 28.5rem;
-    height: 40vh;
+    width: 25rem;
+    height: 30vh;
 }
 
 #EX-1{
