@@ -234,7 +234,7 @@ border-color: rgb(27, 160, 27);
 
 
 .title {
-    margin-left: 30px;
+margin: auto;
     position: relative;
     float: left;
     padding-top: 4rem;
@@ -543,10 +543,17 @@ padding-left: 8rem;
     box-sizing: border-box;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    padding-left: 11rem;
     width: 70vw;
     font-family: 'jetbrains_monoregular', monospace;
     font-size: 12px;
+    margin: auto;
+}
+
+.desc-text{
+    position: relative;
+    margin: auto;
+    width: 70vw;
+    padding-bottom: 12rem;
 }
 
 .digital-garden{
@@ -557,9 +564,9 @@ padding-left: 8rem;
     font-style: normal;
     text-align: left;
     padding-bottom: 10rem;
-    padding-left: 11rem;
     font-size: 35px;
     line-height: 3rem;
+    margin: auto;
 }
 
 .digital-garden p{
@@ -996,15 +1003,15 @@ padding-bottom: 5px;
   .flex-2{
     display: flex;
     flex-wrap: wrap;
+   max-width: 86vw;
     box-sizing: border-box;
     top: 3rem;
     position: relative;
-    width: 90vw;
     justify-content: space-between;
     padding-bottom: 5rem;
     left: 8rem;
     padding-right: 1rem;
-    margin-left: 0;
+    margin-left: 1rem;
     margin-right: 0;
 }
 
