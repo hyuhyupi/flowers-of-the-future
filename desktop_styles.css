@@ -843,18 +843,16 @@ padding-bottom: 2rem;
 .interview-title-1{
     display: block;
     position: relative;
-    margin: auto;
     padding-top: 8rem;
     padding-bottom: 10rem;
     box-sizing: border-box;
     width: 65vw;
-    left: -11rem;
 }
 .interview-title-1 h1{
     position: relative;
     font-size: 50px;
     margin: auto;
-    left: 0;
+    left: 9rem;
 }
 .bio-1{
     display: block;
