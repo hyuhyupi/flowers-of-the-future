@@ -24,37 +24,6 @@
  window.addEventListener('mousemove', positionElement)
 
 
- filterSelection("all")
-function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("filterDiv");
-  if (c == "all") c = "";
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  }
-}
-
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-  }
-}
-
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);     
-    }
-  }
-  element.className = arr1.join(" ");
-}
 
 //blob script adapted from: https://codepen.io/tfrere/pen/wvyeOwe
 
@@ -512,9 +481,6 @@ removeContainer();
      // Select all canvas elements on the page
 var canvasElements = document.querySelectorAll("canvas");
 
-// Set the dimensions for each canvas
-var newWidth = 800; // Set the new width
-var newHeight = 800; // Set the new height
 
 canvasElements.forEach(function(canvas) {
   canvas.width = newWidth;
@@ -545,28 +511,51 @@ canvasElements.forEach(function(canvas) {
     responsiveBlob.render();
   }
   
-  // Define an array of blob configurations
-  var blobConfigurations = [
-    { color: "orange", margin: 0, numPoints: 30, x: 280, y: 45, scale: 0.59,}, //pointsArray: drawObject: "sunflower"},
+  var blobConfigurations;
+
+if (window.innerWidth < 1440) {
+  // Set the dimensions for each canvas
+  var newWidth = 800; // Set the new width
+  var newHeight = 800; // Set the new height
+
+  // Select all canvas elements on the page
+  var canvasElements = document.querySelectorAll("canvas");
+
+  canvasElements.forEach(function (canvas) {
+    canvas.width = newWidth;
+    canvas.height = newHeight;
+  });
+
+  blobConfigurations = [
+    { color: "orange", margin: 0, numPoints: 30, x: 270, y: 45, scale: 0.59 },
     { color: "red", margin: 0, numPoints: 30, x: 120, y: 70, scale: 0.62 },
     { color: "blue", margin: 0, numPoints: 30, x: 420, y: 130, scale: 0.57 },
     { color: "green", margin: 0, numPoints: 30, x: 300, y: 130, scale: 0.56 },
     { color: "magenta", margin: 0, numPoints: 30, x: 370, y: 55, scale: 0.55 },
-  
   ];
-  
-  // Create responsive blobs
-  for (var i = 0; i < blobConfigurations.length; i++) {
-    createResponsiveBlob(blobConfigurations[i]);
-  }
+} else {
+  // Set the dimensions for each canvas
+  var newWidth = 950; // Set the new width
+  var newHeight = 950; // Set the new height
 
+  // Select all canvas elements on the page
+  var canvasElements = document.querySelectorAll("canvas");
 
-  //water your knowledge book page overlays
-  function on() {
-    document.getElementById("overlay-1").style.display = "block";
-  }
-  
-  function off() {
-    document.getElementById("overlay-1").style.display = "none";
-  }
- 
+  canvasElements.forEach(function (canvas) {
+    canvas.width = newWidth;
+    canvas.height = newHeight;
+  });
+
+  blobConfigurations = [
+    { color: "orange", margin: 0, numPoints: 30, x: 280, y: 45, scale: 0.59 },
+    { color: "red", margin: 0, numPoints: 30, x: 120, y: 70, scale: 0.65 },
+    { color: "blue", margin: 0, numPoints: 30, x: 420, y: 130, scale: 0.65 },
+    { color: "green", margin: 0, numPoints: 30, x: 300, y: 130, scale: 0.61 },
+    { color: "magenta", margin: 0, numPoints: 30, x: 370, y: 55, scale: 0.6 },
+  ];
+}
+
+// Create responsive blobs
+for (var i = 0; i < blobConfigurations.length; i++) {
+  createResponsiveBlob(blobConfigurations[i]);
+}

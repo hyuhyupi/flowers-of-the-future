@@ -941,7 +941,7 @@ line-height: 0.8rem;
 .interview-text-1{
     padding-bottom: 7.5rem;
     width: 90vw;
-    padding-left: 1rem;
+    padding-left: 0.2rem;
 }
 
 .interview-text-1 b i{
@@ -1005,7 +1005,6 @@ line-height: 0.8rem;
             margin-right: 0;
             padding-left: 0;
             padding-right: 0;
-
           }
         
         .thumbnail-box{
@@ -1165,7 +1164,7 @@ left: -11rem;
     left: -13.5rem;
     top: -5rem;
 
-scale: 40%;
+scale: 45%;
 }
 
 .experience{

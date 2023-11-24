@@ -277,7 +277,7 @@ float: left;
     font-family: 'Goozette';
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 50px;
     width: 90%
 }
 
@@ -833,25 +833,31 @@ padding-bottom: 2rem;
 
 
 .interview-title-1{
+    display: block;
     position: relative;
     margin: auto;
     padding-top: 8rem;
     padding-bottom: 10rem;
-    left: -6rem;
+    box-sizing: border-box;
     width: 65vw;
+    left: -11rem;
 }
 .interview-title-1 h1{
-    font-size: 40px;
+    position: relative;
+    font-size: 50px;
+    margin: auto;
+    left: 0;
 }
 .bio-1{
     display: block;
     position: relative;
     font-family: 'xanh_monoregular', monospace;
+    line-height: 2rem;
     font-size: 25px;
 padding-top: 15rem;    
 padding-bottom: 15rem;
 padding-left: 10.5rem;
-width: 55%;
+width: 62vw;
 }
 
 .bio-1 i{
@@ -1045,26 +1051,25 @@ padding-bottom: 5px;
 
   .book-title p{
     font-family: 'jetbrains_monoitalic', monospace;
-    font-style: normal;
-    font-weight: normal;
     position: relative;
     display: block;
+    font-style: normal;
     text-align: left;
     font-size: 15px;
+    font-weight: normal;
     padding-top: 0.5rem;
     padding-right: 2rem;
     line-height: 1.3rem;
   }
 
   .book-title sub{
-      font-family: 'jetbrains_monoregular', monospace;
-font-style: normal;
-    font-weight: normal;
+    font-family: 'jetbrains_monoitalic', monospace;
     position: relative;
     display: block;
     text-transform: uppercase;
     text-align: left;
     font-size: 10px;
+    font-weight: normal;
     top: -1rem;
     padding-right: 2rem;
   }
@@ -1102,10 +1107,15 @@ width: fit-content;
 
 
 /*grants*/
+.accordion-box{
+    margin-top: 10rem;
+}
 .accordion {
     cursor: pointer;
     padding: 1rem;
-    width: 100%;
+    width: 80vw;
+    margin-left: 8rem;
+    padding-left: 2rem;
     background-color: #FFEAF9;
     border: 1px solid #000000;
     text-align: left;
@@ -1117,7 +1127,7 @@ width: fit-content;
   font-family: 'goozetteregular';
     font-weight: normal;
     font-style: normal;
-    font-size: 20px;
+    font-size: 30px;
     position: relative;
     padding-top: 0.5rem;
 }
@@ -1135,17 +1145,17 @@ max-height: 0;
 
   .panel-text{
     padding-top: 2rem;
-    padding-left: 0.5rem;
+    padding-left: 10rem;
 
   }
 
   .panel-text h2{
-    font-size: 18px;
+    font-size: 30px;
     }
 
   .panel-text p{
 font-family: 'Creato Display', sans-serif;  
-font-size: 15px;
+font-size: 20px;
 }
   .accordion:active, .panel{
     display: block;
