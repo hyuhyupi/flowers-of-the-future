@@ -536,6 +536,8 @@ height: 10rem
     height: 7rem;
     position: relative;
    top: 1rem;
+    left:1rem;
+    bottom: 1rem;
     margin: auto;
     right: 0;
     border: #000000 1px solid;
