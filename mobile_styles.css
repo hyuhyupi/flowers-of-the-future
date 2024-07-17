@@ -546,10 +546,9 @@ height: 10rem
 
 .about-mobile p{
     margin-left: auto;
-    margin-top: 1rem;
     position: relative;
     text-align: center;
-    padding: 1.5rem;
+    padding-top: 1.5rem;
     font-family: 'goozetteregular', sans-serif;
     font-size: 18px;
     line-height: 1.5rem;
