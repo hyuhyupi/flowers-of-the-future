@@ -545,6 +545,7 @@ height: 10rem
 
 .about-mobile p{
     margin: 1rem;
+    width: 20vw;
     position: relative;
     text-align: center;
     padding-top: 1.5rem;
