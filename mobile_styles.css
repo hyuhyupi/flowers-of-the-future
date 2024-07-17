@@ -535,7 +535,8 @@ height: 10rem
     width: 40vw;
     height: 7rem;
     position: relative;
-    margin-top: 1rem;
+   top: 1rem;
+    margin: auto;
     right: 0;
     border: #000000 1px solid;
     background-color: #8bee84;
