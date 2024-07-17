@@ -534,6 +534,7 @@ height: 10rem
     display: block;
     width: 40vw;
     height: 7rem;
+    position: relative;
     margin-top: 1rem;
     padding-bottom: 1rem;
     right: 0;
